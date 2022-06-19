@@ -61,8 +61,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "- hannahsanhueza1",
-            "text": "<p>“Mon frère a adoré. Merci mille fois”<\/p>",
+            "title": "“Mon frère a adoré. Merci mille fois”",
+            "text": "<p>- hannahsanhueza1<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -70,8 +70,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "- margot",
-            "text": "<p>“Impression de très bonne qualité, le papier est texturé, la composition est vraiment sympas. Acheté pour un anniversaire ce cadeau a fait son effet je recommande !”<\/p>",
+            "title": "“Impression de très bonne qualité, le papier est texturé, la composition est vraiment sympas. Acheté pour un anniversaire ce cadeau a fait son effet je recommande !”",
+            "text": "<p>- margot<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -79,8 +79,8 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "- aurora",
-            "text": "<p>“Lithographie magnifique, et tout à fait conforme aux attentes, envoi rapide et très soigné. Merci !”<\/p>",
+            "title": "“Lithographie magnifique, et tout à fait conforme aux attentes, envoi rapide et très soigné. Merci !”",
+            "text": "<p>- aurora<\/p>",
             "link_label": "",
             "link": ""
           }
