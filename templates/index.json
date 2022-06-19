@@ -31,38 +31,30 @@
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Welcome on my online store ! You can wander around my latest artworks, freely inspired by XVth and XVIth woodcuts ! Beware the skelettons, demons and other pop culture references such as Tolkien characters, or Warhammer 40K references!<\/p><p><\/p><p><\/p>",
             "text_style": "body"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Shop now",
+            "button_label": "Discover",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "heading",
         "text",
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Component_1.png",
+        "image": "shopify:\/\/shop_images\/Capture_d_ecran_2022-06-14_a_11.21_1.png",
         "height": "large",
         "desktop_image_width": "large",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
@@ -78,21 +70,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Impression linogravure",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>explications linocut<\/p>",
             "text_style": "body"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Shop now",
+            "button_label": "Shop",
             "button_link": ""
           }
         }
@@ -103,10 +95,10 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Component_1.png",
+        "image": "shopify:\/\/shop_images\/Capture_d_ecran_2022-06-14_a_11.09_1.png",
         "height": "large",
         "desktop_image_width": "large",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
@@ -122,21 +114,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Gravure sur bois",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>explications woodcut<\/p>",
             "text_style": "body"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Shop now",
+            "button_label": "Shop",
             "button_link": ""
           }
         }
@@ -147,10 +139,10 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Component_1.png",
+        "image": "shopify:\/\/shop_images\/Capture_d_ecran_2022-06-14_a_11.19_1.png",
         "height": "large",
         "desktop_image_width": "large",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
@@ -166,21 +158,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Personnalisation",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Possibilité de personnalisation<\/p>",
             "text_style": "body"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Shop now",
+            "button_label": "Contact",
             "button_link": ""
           }
         }
@@ -191,10 +183,10 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Component_1.png",
+        "image": "shopify:\/\/shop_images\/image_6.png",
         "height": "large",
         "desktop_image_width": "large",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
