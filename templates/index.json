@@ -173,7 +173,7 @@
           "type": "button",
           "settings": {
             "button_label": "Contact",
-            "button_link": ""
+            "button_link": "shopify:\/\/pages\/demande-personnalisee"
           }
         }
       },
