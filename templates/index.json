@@ -1,7 +1,81 @@
 {
   "sections": {
+    "1655680859cb616207": {
+      "type": "slideshow",
+      "blocks": {
+        "16556808591e5a7071-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Component_1.png",
+            "heading": "Dark medieval linocut & woodcut. Freely inspired by XVth century block printing",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "16556808591e5a7071-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Capture_d_ecran_2022-06-14_a_11.09_1.png",
+            "heading": "Dark medieval linocut & woodcut. Freely inspired by XVth century block printing",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "7fbfbc1e-43c6-437b-9510-94659e575628": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Component_1.png",
+            "heading": "Dark medieval linocut & woodcut. Freely inspired by XVth century block printing",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16556808591e5a7071-0",
+        "16556808591e5a7071-1",
+        "7fbfbc1e-43c6-437b-9510-94659e575628"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -248,88 +322,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1655680859cb616207": {
-      "type": "slideshow",
-      "blocks": {
-        "16556808591e5a7071-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Component_1.png",
-            "heading": "Dark medieval linocut & woodcut. Freely inspired by XVth century block printing",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "16556808591e5a7071-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Capture_d_ecran_2022-06-14_a_11.09_1.png",
-            "heading": "Dark medieval linocut & woodcut. Freely inspired by XVth century block printing",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "7fbfbc1e-43c6-437b-9510-94659e575628": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Capture_d_ecran_2022-06-14_a_11.19_1.png",
-            "heading": "Dark medieval linocut & woodcut. Freely inspired by XVth century block printing",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "16556808591e5a7071-0",
-        "16556808591e5a7071-1",
-        "7fbfbc1e-43c6-437b-9510-94659e575628"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
     }
   },
   "order": [
+    "1655680859cb616207",
     "image_banner",
     "image-with-text",
     "text-with-image",
     "image-with-text2",
     "text-with-image2",
-    "multicolumn",
-    "1655680859cb616207"
+    "multicolumn"
   ]
 }
