@@ -84,6 +84,7 @@
   },
   "order": [
     "image_banner",
+    "image-with-text",
     "multicolumn"
   ]
 }
