@@ -266,6 +266,9 @@
   "order": [
     "image_banner",
     "image-with-text",
+    "text-with-image",
+    "image-with-text2",
+    "text-with-image2",
     "multicolumn"
   ]
 }
