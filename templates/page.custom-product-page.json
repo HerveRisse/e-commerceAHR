@@ -2,13 +2,54 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1655676147110deaa1": {
+      "type": "rich-text",
+      "blocks": {
+        "1655676147048eaeb0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Demande personnalisée",
+            "heading_size": "h1"
+          }
+        },
+        "1655676147048eaeb0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>D’une manière générale, j’ai besoin de savoir ce que tu aimerais avoir sur la gravureComment tu veux être représenté ? Des habits spécifiques ? Est-ce qu’il y a une période historique ou une mode qui te plait particulièrement ? Un métier particulier ? Est-ce qu’il y a des objets (armes, outils, autres) que tu veux présents sur la gravure ? S’il y a d’autres objets qui font partie de qui tu es, je peux les mettre aussi (ou même un animal de compagnie). N’hésite pas à mentionner même des objets modernes, ou des éléments de fantasy, je te dirai si c’est réalisable ! J’ai aussi la possibilité de mettre quelques mots (une devise, ton prénom, ton gametag, ou même un joyeux noel\/bonne année, ou bon anniversaire) Concernant tes traits de visage, une ou plusieurs photos m’aideront à cerner ce que je représenterai sur la gravure. (Une photo en pied suffira, ou type portrait) L’impression est faite à la main sur un papier d’excellente qualité :Velin d’Arches en 185g\/m² ou un papier Kozo épais pour avoir un effet parcheminé. Les bords sont découpés pour donner un effet brut.N'hésitez pas à revenir vers moi avec les détails, A bientôt !<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1655676147048eaeb0-0",
+        "1655676147048eaeb0-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "165567615381eb65c4": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Ecris ta demande...",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1655676147110deaa1",
+    "165567615381eb65c4"
   ]
 }
