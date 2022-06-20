@@ -2,6 +2,7 @@
   "sections": {
     "1655680859cb616207": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "16556808591e5a7071-0": {
           "type": "slide",
@@ -75,7 +76,6 @@
     },
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -83,13 +83,21 @@
             "heading": "Dark medieval linocut & woodcut. Freely inspired by XVth century block printing",
             "heading_size": "h0"
           }
+        },
+        "7d04ffef-4900-491c-8290-d0920808ee25": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
-        "heading"
+        "heading",
+        "7d04ffef-4900-491c-8290-d0920808ee25"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Component_1.png",
+        "image": "shopify:\/\/shop_images\/image_5.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": true,
