@@ -1,6 +1,6 @@
 <div class="title-with-image_container" >
   
-<h5 class ="title-with-image_title" >{{section.settings.heading}}</h2>
+<h2 class ="title-with-image_title" >{{section.settings.heading}}</h2>
 <p class ="title-with-image_text">{{section.settings.description}}</p>
 
 {%for block in section.blocks %}
@@ -14,6 +14,10 @@
 {% style %}
 
 .title-with-image_title {
+text-align: center
+}
+
+.title-with-image_text {
 text-align: center
 }
 
