@@ -1,12 +1,52 @@
+
+{%for block in section.blocks %}
+	<div class="catalog-category_container" >
+
+      <h2 class ="catalog-category_title" >{{section.settings.heading}}</h2>
+      <img class ="catalog-category_img" src="{{block.settings.image-title | img_url:'master'}}"/>
+      <img class ="catalog-category_img" src="{{block.settings.image-catalog | img_url:'master'}}"/>
+      
+	</div>
+{%endfor%}
+
+
+
+{% style %}
+
+.catalog-category_container {
+text-align: center
+}
+
+{% endstyle %}
+
+
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+"name": "category catalog",
+"class" : "blocks",
+"settings": [
+    {
+        "type":"text",
+        "label":"title catalog",
+        "id":"heading"
+    },
+    {
+        "type":"image_picker",
+        "label":"your image",
+        "id":"image-title"
+    },
+    {
+        "type":"image_picker",
+        "label":"your image",
+        "id":"image-catalog"      
+    }
+],
+    "presets":[
+        {
+            "category":"image",
+            "name": "category catalog"
+        }
+        ]
+}                   
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
