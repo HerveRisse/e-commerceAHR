@@ -299,11 +299,11 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/image_5.png",
             "title": "“Mon frère a adoré. Merci mille fois”",
             "text": "<p>- hannahsanhueza1<\/p>",
             "link_label": "",
@@ -378,22 +378,6 @@
         "padding_bottom": 36
       }
     },
-    "1655733297f2457920": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Asset_12x_2.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "accent-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "1655804679df805668": {
       "type": "title-with-image",
       "blocks": {
@@ -402,14 +386,26 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Asset_12x_2.png"
           }
+        },
+        "474588d7-6bc9-4e8a-abbc-a55367dd6b56": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_12x_2.png"
+          }
+        },
+        "b5e689d1-6f31-4c36-8b8d-0ecf58b83242": {
+          "type": "image",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "9f6670bb-a90b-4cc3-bbc7-e43620d5ea48"
+        "9f6670bb-a90b-4cc3-bbc7-e43620d5ea48",
+        "474588d7-6bc9-4e8a-abbc-a55367dd6b56",
+        "b5e689d1-6f31-4c36-8b8d-0ecf58b83242"
       ],
       "settings": {
-        "heading": "test section",
-        "description": "<p>texte descriptif<\/p>"
+        "heading": "test section"
       }
     }
   },
@@ -423,7 +419,6 @@
     "text-with-image2",
     "multicolumn",
     "165573280122717c9d",
-    "1655733297f2457920",
     "1655804679df805668"
   ]
 }
