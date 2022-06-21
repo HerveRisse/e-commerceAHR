@@ -1,12 +1,17 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+	{
+      "name": "image with text above",
+      "settings": [
+                      {
+                        "type":"text",
+                        "label":"headline",
+                        "id":"heading"
+                      },
+                      {
+                        "type":"richtext",
+                        "label":"your description",
+                        "id":"description"
+                      }
+                  ]
+	}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
