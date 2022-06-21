@@ -1,7 +1,6 @@
 <div class="title-with-image_container" >
   
 <h2 class ="title-with-image_title" >{{section.settings.heading}}</h2>
-<p class ="title-with-image_text">{{section.settings.description}}</p>
 
 {%for block in section.blocks %}
 
@@ -17,9 +16,6 @@
 text-align: center
 }
 
-.title-with-image_text {
-text-align: center
-}
 
 {% endstyle %}
 
@@ -31,11 +27,6 @@ text-align: center
                         "type":"text",
                         "label":"headline",
                         "id":"heading"
-                      },
-                      {
-                        "type":"richtext",
-                        "label":"your description",
-                        "id":"description"
                       }
                   ],
 		"blocks":[
