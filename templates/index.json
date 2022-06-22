@@ -386,28 +386,57 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Asset_12x_2.png"
           }
-        },
-        "474588d7-6bc9-4e8a-abbc-a55367dd6b56": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Asset_12x_2.png"
-          }
         }
       },
       "block_order": [
-        "9f6670bb-a90b-4cc3-bbc7-e43620d5ea48",
-        "474588d7-6bc9-4e8a-abbc-a55367dd6b56"
+        "9f6670bb-a90b-4cc3-bbc7-e43620d5ea48"
       ],
       "settings": {
-        "heading": "test section"
+        "heading": "Les best seller"
       }
     },
     "1655835257bda68e9b": {
       "type": "category-catalog",
       "settings": {
-        "heading": "bois",
-        "image-title": "shopify:\/\/shop_images\/Asset_12x_2.png",
-        "image-catalog": "shopify:\/\/shop_images\/Capture_d_ecran_2022-06-14_a_11.19_1.png"
+        "heading": "bois"
+      }
+    },
+    "1655909000a0fc7436": {
+      "type": "text-with-icon-social",
+      "blocks": {
+        "6d4fddf9-def8-4e23-90f8-486445e276cd": {
+          "type": "image",
+          "settings": {
+            "image-icon": "shopify:\/\/shop_images\/Vector_25.png"
+          }
+        },
+        "a25bde57-db07-40d1-b65b-777fdbc3b437": {
+          "type": "image",
+          "settings": {
+            "image-icon": "shopify:\/\/shop_images\/Vector_25.png"
+          }
+        },
+        "4aceb9b9-6394-4c20-865b-66394d803507": {
+          "type": "image",
+          "settings": {
+            "image-icon": "shopify:\/\/shop_images\/Vector_25.png"
+          }
+        },
+        "11d3ca97-c6d5-4f11-9061-77c2e048062b": {
+          "type": "image",
+          "settings": {
+            "image-icon": "shopify:\/\/shop_images\/Vector_25.png"
+          }
+        }
+      },
+      "block_order": [
+        "6d4fddf9-def8-4e23-90f8-486445e276cd",
+        "a25bde57-db07-40d1-b65b-777fdbc3b437",
+        "4aceb9b9-6394-4c20-865b-66394d803507",
+        "11d3ca97-c6d5-4f11-9061-77c2e048062b"
+      ],
+      "settings": {
+        "heading": "text icon"
       }
     }
   },
@@ -422,6 +451,7 @@
     "multicolumn",
     "165573280122717c9d",
     "1655804679df805668",
-    "1655835257bda68e9b"
+    "1655835257bda68e9b",
+    "1655909000a0fc7436"
   ]
 }
