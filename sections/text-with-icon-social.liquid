@@ -1,12 +1,47 @@
+<div class="text-icon-social_container" >
+
+<h2 class ="text-icon-social_title" >{{block.settings.heading}}</h2>
+{%for block in section.blocks %}
+
+<img class ="text-icon-social_img" src="{{block.settings.image-icon | img_url:'master'}}"/>
+
+{%endfor%}
+
+</div>
+
+{% style %}
+
+.text-icon-social_container {
+text-align: center
+}
+
+{% endstyle %}
+
+
+
 {% schema %}
+{
+"name": "text icon",
+"class" : "section",
+"settings": [
   {
-    "name": "Section name",
-    "settings": []
+      "type":"text",
+      "label":"text icon",
+      "id":"heading"
   }
+],
+"blocks": [
+  {
+      "type":"image",
+      "name":"image icon",
+      "settings":[
+                  {
+                      "type":"image_picker",
+                      "label":"your image",
+                      "id":"image-icon"
+                  }
+              ]
+} 
+]
+}                 
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
