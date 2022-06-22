@@ -1,6 +1,7 @@
 <div class="text-icon-social_container" >
 
-<h2 class ="text-icon-social_title" >{{block.settings.heading}}</h2>
+<h2 class ="text-icon-social_title" >{{secion.settings.heading}}</h2>
+  
 {%for block in section.blocks %}
 
 <img class ="text-icon-social_img" src="{{block.settings.image-icon | img_url:'master'}}"/>
@@ -12,7 +13,8 @@
 {% style %}
 
 .text-icon-social_container {
-text-align: center
+text-align: center;
+display: inline;
 }
 
 {% endstyle %}
