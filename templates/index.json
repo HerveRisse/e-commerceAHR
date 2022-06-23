@@ -397,6 +397,20 @@
     },
     "1655835257bda68e9b": {
       "type": "category-catalog",
+      "blocks": {
+        "4ea54853-471d-49e4-9463-d24d31935303": {
+          "type": "text",
+          "settings": {
+            "heading": "test lien",
+            "image-title": "shopify:\/\/shop_images\/Asset_12x_2.png",
+            "image-catalog": "shopify:\/\/shop_images\/Capture_d_ecran_2022-06-14_a_11.19_1.png",
+            "link-1": "https:\/\/www.youtube.com\/watch?v=b_Du4FQeb9I"
+          }
+        }
+      },
+      "block_order": [
+        "4ea54853-471d-49e4-9463-d24d31935303"
+      ],
       "settings": {
         "heading": "bois"
       }
