@@ -1,14 +1,17 @@
-<div class="title-with-image_container" >
+
   
-<h2 class ="title-with-image_title" >{{section.settings.heading}}</h2>
+
 
 {%for block in section.blocks %}
 
-	<img class ="title-with-image_img" src="{{block.settings.image | img_url:'master'}}"/>
+	<div class="title-with-image_container" >
+	<img class ="title-with-image_img" src="{{block.settings.image-icon-footer | img_url:'master'}}"/>
+	<h2 class ="title-with-image_title" >{{section.settings.heading}}</h2>
+ 	</div>
 
 {%endfor%}
   
-</div>
+
 
 {% style %}
 
@@ -30,7 +33,7 @@ text-align: center
 									{
                                      "type":"image_picker",
                                      "label":"your image",
-                                     "id":"image-title"
+                                     "id":"image-icon-footer"
                                     },
                                     {
                                      "type":"text",
