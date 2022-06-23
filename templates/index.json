@@ -459,21 +459,29 @@
         "2e2e78ca-13ce-48cc-b035-12c079d49f4a": {
           "type": "image",
           "settings": {
-            "image-icon-footer": "shopify:\/\/shop_images\/Asset_12x_2.png",
-            "heading": "test-test"
+            "image-icon-footer": "shopify:\/\/shop_images\/Vector.png",
+            "heading": "Paiement sécurisé"
           }
         },
         "797413df-adee-4376-9e20-7252e6c1c2cf": {
           "type": "image",
           "settings": {
-            "image-icon-footer": "shopify:\/\/shop_images\/Asset_12x_2.png",
-            "heading": "terrerezerz"
+            "image-icon-footer": "shopify:\/\/shop_images\/Vector-2.png",
+            "heading": "Livraison Gratuite à l’international"
+          }
+        },
+        "0292dc40-952a-4622-8886-305c771a6d2f": {
+          "type": "image",
+          "settings": {
+            "image-icon-footer": "shopify:\/\/shop_images\/Vector-3.png",
+            "heading": "Fabriqué en France"
           }
         }
       },
       "block_order": [
         "2e2e78ca-13ce-48cc-b035-12c079d49f4a",
-        "797413df-adee-4376-9e20-7252e6c1c2cf"
+        "797413df-adee-4376-9e20-7252e6c1c2cf",
+        "0292dc40-952a-4622-8886-305c771a6d2f"
       ],
       "settings": {
       }
