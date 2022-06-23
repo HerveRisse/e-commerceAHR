@@ -476,12 +476,20 @@
             "image-icon-footer": "shopify:\/\/shop_images\/Vector-3.png",
             "heading": "Fabriqué en France"
           }
+        },
+        "26312f1d-da80-4d40-b116-f8d9dad04aee": {
+          "type": "image",
+          "settings": {
+            "image-icon-footer": "shopify:\/\/shop_images\/Vector-4.png",
+            "heading": "Possiblité de personnalisation"
+          }
         }
       },
       "block_order": [
         "2e2e78ca-13ce-48cc-b035-12c079d49f4a",
         "797413df-adee-4376-9e20-7252e6c1c2cf",
-        "0292dc40-952a-4622-8886-305c771a6d2f"
+        "0292dc40-952a-4622-8886-305c771a6d2f",
+        "26312f1d-da80-4d40-b116-f8d9dad04aee"
       ],
       "settings": {
       }
