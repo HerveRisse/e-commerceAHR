@@ -1,12 +1,62 @@
+<div class="title-with-image_container" >
+  
+<h2 class ="title-with-image_title" >{{section.settings.heading}}</h2>
+
+{%for block in section.blocks %}
+
+	<img class ="title-with-image_img" src="{{block.settings.image | img_url:'master'}}"/>
+
+{%endfor%}
+  
+</div>
+
+{% style %}
+
+.title-with-image_container {
+text-align: center
+}
+
+
+{% endstyle %}
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+	{
+      "name": "image with text above",
+      "settings": [
+                      {
+                        "type":"text",
+                        "label":"headline",
+                        "id":"heading"
+                      }
+                  ],
+		"blocks":[
+					{
+						"type":"image",
+						"name":"custom-footer",
+						"settings":[
+									{
+                                     "type":"image_picker",
+                                     "label":"your image",
+                                     "id":"image-title"
+                                    },
+                                    {
+                                     "type":"text",
+                                     "label":"headline",
+                                     "id":"heading"
+                                    }
+									]
+					}
+					],
+		
+
+	
+        "presets" : [
+                            {
+                                "category":"image",
+                                "name": "custom-footer" 
+                            }
+                            ]
+}
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
 
-{% javascript %}
-{% endjavascript %}
