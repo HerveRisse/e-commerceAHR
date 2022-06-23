@@ -438,6 +438,98 @@
       "settings": {
         "heading": "text with icon :"
       }
+    },
+    "165597692801ba214c": {
+      "type": "custom-footer",
+      "blocks": {
+        "2e2e78ca-13ce-48cc-b035-12c079d49f4a": {
+          "type": "image",
+          "settings": {
+            "image-icon-footer": "shopify:\/\/shop_images\/Asset_12x_2.png",
+            "heading": "test-test"
+          }
+        },
+        "797413df-adee-4376-9e20-7252e6c1c2cf": {
+          "type": "image",
+          "settings": {
+            "image-icon-footer": "shopify:\/\/shop_images\/Asset_12x_2.png",
+            "heading": "terrerezerz"
+          }
+        }
+      },
+      "block_order": [
+        "2e2e78ca-13ce-48cc-b035-12c079d49f4a",
+        "797413df-adee-4376-9e20-7252e6c1c2cf"
+      ],
+      "settings": {
+      }
+    },
+    "1655977551f8dbf48d": {
+      "type": "multicolumn",
+      "blocks": {
+        "1655977551b97a57de-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector.png",
+            "title": "Paiement sécurisé",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.codingame.com\/start"
+          }
+        },
+        "1655977551b97a57de-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector-2.png",
+            "title": "Livraison Gratuite à l’internationale",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1655977551b97a57de-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector-3.png",
+            "title": "Fabriqué en France",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b3ee4ad5-0150-4a6f-b96b-b63fc7864ca4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector-4.png",
+            "title": "Possiblité de personnalisation",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1655977551b97a57de-0",
+        "1655977551b97a57de-1",
+        "1655977551b97a57de-2",
+        "b3ee4ad5-0150-4a6f-b96b-b63fc7864ca4"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -452,6 +544,8 @@
     "165573280122717c9d",
     "1655804679df805668",
     "1655835257bda68e9b",
-    "1655909000a0fc7436"
+    "1655909000a0fc7436",
+    "165597692801ba214c",
+    "1655977551f8dbf48d"
   ]
 }
