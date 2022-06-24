@@ -1,53 +1,40 @@
-<div class="title-with-image_container" >
-  
-<h2 class ="title-with-image_title" >{{section.settings.heading}}</h2>
-
-{%for block in section.blocks %}
-
-	<img class ="title-with-image_img" src="{{block.settings.image | img_url:'master'}}"/>
-
-{%endfor%}
-  
+<div class="text-with-paragraph_container" > 
+	<p class ="text-with-paragraph_text" >{{block.settings.heading}}</p>
+  	<p class = "text-with-paragraph_pargraph">{{block.settings.paragraph}}</p>
 </div>
 
 {% style %}
 
-.title-with-image_container {
-text-align: center
-}
-
-
 {% endstyle %}
 
 {% schema %}
-	{
-      "name": "image with text above",
-      "settings": [
-                      {
+  {
+  "name": "text with paragraph",
+"class" : "section",
+        "settings": [
+                        {
                         "type":"text",
                         "label":"headline",
                         "id":"heading"
-                      }
-                  ],
-		"blocks":[
-					{
-						"type":"image",
-						"name":"image block",
-						"settings":[
-									{
-										"type":"image_picker",
-										"label":"your image",
-										"id":"image"
-									}
-								]
-					}
-					],
-		"presets" : [
-					{
-						"category":"image",
-						"name": "image with text above" 
-					}
-					]
+                        },
+                        {
+                        "type":"richtext",
+                        "label":"texte",
+                        "id":"paragraph"
+                        }
+  					]
+  				
+                  ,
 
-	}
+          "presets" : [
+                      {
+                          "category":"image",
+                          "name": "text-with-paragraph" 
+                      }
+                      ]
+
+	
+  }
 {% endschema %}
+
+
