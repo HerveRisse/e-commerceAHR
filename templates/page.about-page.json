@@ -53,6 +53,13 @@
         "padding_bottom": 36
       }
     },
+    "1656078925654ad795": {
+      "type": "title-with-paragraph",
+      "settings": {
+        "heading": "L’Art",
+        "paragraph": "<p>La  xylogravure  est une technique de gravure sur bois immémoriale à partir de différents outils (canif, burin, ciseau, gouge) qui permettent de creuser le bois. Cette technique de gravure sur bois consiste à tailler une plaque de bois à certains endroits précis, afin de laisser apparaitre un dessin sur le support.La linogravure, apparue bien plus tardivement et découlant de la xylogravure, est une technique de gravure sur lino utilisant les mêmes outils et la même technique de gravure que celle-ci. Pour ce qui est de la linogravure, je m’occupe personnellement de chaque étape de création, de la gravure de la matrice d’impression (plaque sur laquelle on étale l’encre) à l’impression elle-même. <\/p>"
+      }
+    },
     "1655676862a9063e62": {
       "type": "rich-text",
       "blocks": {
@@ -92,13 +99,6 @@
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "1656078925654ad795": {
-      "type": "title-with-paragraph",
-      "settings": {
-        "heading": "L’Art",
-        "paragraph": "<p>La  xylogravure  est une technique de gravure sur bois immémoriale à partir de différents outils (canif, burin, ciseau, gouge) qui permettent de creuser le bois. Cette technique de gravure sur bois consiste à tailler une plaque de bois à certains endroits précis, afin de laisser apparaitre un dessin sur le support.La linogravure, apparue bien plus tardivement et découlant de la xylogravure, est une technique de gravure sur lino utilisant les mêmes outils et la même technique de gravure que celle-ci. Pour ce qui est de la linogravure, je m’occupe personnellement de chaque étape de création, de la gravure de la matrice d’impression (plaque sur laquelle on étale l’encre) à l’impression elle-même. <\/p>"
       }
     },
     "16560795266bb55469": {
@@ -145,15 +145,86 @@
       "settings": {
         "heading": ""
       }
+    },
+    "16560817055e95aaad": {
+      "type": "text-with-icon-social",
+      "blocks": {
+        "f70d46c4-a44d-442a-9aee-86836e86c2fd": {
+          "type": "image",
+          "settings": {
+            "image-icon": "shopify:\/\/shop_images\/graphic_elements.png"
+          }
+        }
+      },
+      "block_order": [
+        "f70d46c4-a44d-442a-9aee-86836e86c2fd"
+      ],
+      "settings": {
+        "heading": ""
+      }
+    },
+    "1656081764f1d30396": {
+      "type": "newsletter",
+      "blocks": {
+        "1656081764cfb88f4f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Restez informés des nouveautés !",
+            "heading_size": "h1"
+          }
+        },
+        "1656081764cfb88f4f-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Inscrivez-vous à la newsletter et bénéficiez de 5€ de réduction sur votre prochain ahcat<\/p>"
+          }
+        },
+        "1656081764cfb88f4f-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1656081764cfb88f4f-0",
+        "1656081764cfb88f4f-1",
+        "1656081764cfb88f4f-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1656081921e44a0d51": {
+      "type": "text-with-icon-social",
+      "blocks": {
+        "66bc2e09-ea99-413d-a28f-94b40d1fde40": {
+          "type": "image",
+          "settings": {
+            "image-icon": "shopify:\/\/shop_images\/graphic_elements.png"
+          }
+        }
+      },
+      "block_order": [
+        "66bc2e09-ea99-413d-a28f-94b40d1fde40"
+      ],
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
     "16560784857bdb4c20",
     "main",
     "16556766240a02baf4",
+    "1656078925654ad795",
     "1655676862a9063e62",
     "1655676905055b42aa",
-    "1656078925654ad795",
-    "16560795266bb55469"
+    "16560795266bb55469",
+    "16560817055e95aaad",
+    "1656081764f1d30396",
+    "1656081921e44a0d51"
   ]
 }
