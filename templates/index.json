@@ -455,6 +455,13 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1656068758347885f2": {
+      "type": "sword-title",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Calque_1.png",
+        "heading": "Les Best Sellers"
+      }
     }
   },
   "order": [
@@ -469,6 +476,7 @@
     "165573280122717c9d",
     "1655835257bda68e9b",
     "165597692801ba214c",
-    "165606753706257307"
+    "165606753706257307",
+    "1656068758347885f2"
   ]
 }
