@@ -1,12 +1,32 @@
+<div class="only-image_container" >
+
+<img class ="only-image_img" src="{{block.settings.image-icon | img_url:'master'}}"/>
+
+</div>
+
+{% style %}
+
+{% endstyle %}
+
+
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+"name": "text icon",
+"class" : "section",
+"settings": [
+              {
+              "type":"image_picker",
+              "label":"your image",
+              "id":"image-icon"
+              }
+              ],
+"presets" : [
+					{
+						"category":"image",
+						"name": "text with icons" 
+					}
+					]
+
+}                 
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
