@@ -1,5 +1,22 @@
 {
   "sections": {
+    "16560784857bdb4c20": {
+      "type": "title-with-image",
+      "blocks": {
+        "d650f2d3-dfe6-4af4-891d-0425ccafa361": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/graphic_elements0.png"
+          }
+        }
+      },
+      "block_order": [
+        "d650f2d3-dfe6-4af4-891d-0425ccafa361"
+      ],
+      "settings": {
+        "heading": "A propos"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -11,23 +28,15 @@
     "16556766240a02baf4": {
       "type": "image-with-text",
       "blocks": {
-        "1655676624186770a4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Mon parcours",
-            "heading_size": "h1"
-          }
-        },
         "1655676624186770a4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>blabla de présentation, comment la marque est née, son histoire etc <\/p>",
+            "text": "<p>Passionné par les illustrations et le graphisme du XVe et XIVe siècles, Mathieu a débuté avec un projet personnel de gravure sur bois s’inspirant des traités du XVe et XIVe siècles sur la représentation des corps et de l’espace, le tout en prônant l'élégance.Le travail minutieux et complexe, mélangeant la representation brute, l’univers fantastique, la fantaisie et la science-fiction, a suscité l’intérêt de nombreux de personnes d’où la création la boutique Math_the_printer en 2019. <\/p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
-        "1655676624186770a4-0",
         "1655676624186770a4-1"
       ],
       "settings": {
@@ -80,6 +89,7 @@
     }
   },
   "order": [
+    "16560784857bdb4c20",
     "main",
     "16556766240a02baf4",
     "1655676862a9063e62",
