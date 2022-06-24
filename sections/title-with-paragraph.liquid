@@ -1,12 +1,40 @@
+<div class="text-with-paragraph_container" > 
+	<p class ="text-with-paragraph_text" >{{block.settings.heading}}</p>
+  	<p class = "text-with-paragraph_pargraph">{{block.settings.paragraph}}</p>
+</div>
+
+{% style %}
+
+{% endstyle %}
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+  "name": "text with paragraph",
+"class" : "section",
+        "settings": [
+                        {
+                        "type":"text",
+                        "label":"headline",
+                        "id":"heading"
+                        },
+                        {
+                        "type":"richtext",
+                        "label":"texte",
+                        "id":"paragraph"
+                        }
+  					]
+  				
+                  ,
+
+          "presets" : [
+                      {
+                          "category":"image",
+                          "name": "text-with-paragraph" 
+                      }
+                      ]
+
+	
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
 
-{% javascript %}
-{% endjavascript %}
