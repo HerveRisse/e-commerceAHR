@@ -1,3 +1,13 @@
+
+@font-face {
+  font-family: "Fiolex_Mephisto_Dingbats";
+  src: url("/Fiolex_Mephisto_Dingbats.woff");
+}
+
+.homepage-review_stars-icon {
+  font-family: "Fiolex_Mephisto_Dingbats", serif;
+}
+
 /* Color custom properties */
 
 :root,
