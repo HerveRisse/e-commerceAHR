@@ -4,7 +4,7 @@
    <div class="homepage-review_card-container">  
 	<p class ="homepage-review_title" >{{block.settings.heading}}</p>
   	<p class = "homepage-review_author">{{block.settings.author}}</p>
-	<p class ="homepage-review_img" src="{{block.settings.stars-icon | img_url:'master'}}"/>
+	<p class = "homepage-review_stars-icon">{{block.settings.stars-icon}}</p>
 	<img class ="homepage-review_img" src="{{block.settings.image | img_url:'master'}}"/>
 	</div>
   {%endfor%}
@@ -63,8 +63,8 @@
                         "id":"author"
                         },
                         {
-                        "type":"image_picker",
-                        "label":"your image",
+                        "type":"text",
+                        "label":"rate",
                         "id":"stars-icon"
                         },
                         {
