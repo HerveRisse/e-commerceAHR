@@ -125,6 +125,23 @@
         "padding_bottom": 0
       }
     },
+    "1655804679df805668": {
+      "type": "title-with-image",
+      "blocks": {
+        "9f6670bb-a90b-4cc3-bbc7-e43620d5ea48": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_12x_2.png"
+          }
+        }
+      },
+      "block_order": [
+        "9f6670bb-a90b-4cc3-bbc7-e43620d5ea48"
+      ],
+      "settings": {
+        "heading": "Les best seller"
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "disabled": true,
@@ -252,13 +269,6 @@
         "padding_bottom": 20
       }
     },
-    "1656068758347885f2": {
-      "type": "sword-title",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Calque_1.png",
-        "heading": "Les Best Sellers"
-      }
-    },
     "text-with-image2": {
       "type": "image-with-text",
       "disabled": true,
@@ -307,7 +317,7 @@
     "165573280122717c9d": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
+        "title": "Catalogue",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -412,38 +422,43 @@
       "settings": {
       }
     },
-    "165606753706257307": {
-      "type": "newsletter",
+    "1656068747f58bad17": {
+      "type": "homepage-review",
       "blocks": {
-        "1656067537fe59a2ed-0": {
-          "type": "heading",
+        "6521059a-ad2b-44bf-881e-d3add472e4cd": {
+          "type": "image",
           "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
+            "heading": "“Mon frère a adoré. Merci mille fois”",
+            "author": "<p>- hannahsanhueza1<\/p>",
+            "stars-icon": "shopify:\/\/shop_images\/Asset_12x_2.png",
+            "image": "shopify:\/\/shop_images\/graphic_elements.png"
           }
         },
-        "1656067537fe59a2ed-1": {
-          "type": "paragraph",
+        "a4a0357b-e699-4da2-a971-fb17d838e757": {
+          "type": "image",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "heading": "“Impression de très bonne qualité, le papier est texturé, la composition est vraiment sympas. Acheté pour un anniversaire ce cadeau a fait son effet je recommande !”",
+            "author": "<p>- margot<\/p>",
+            "stars-icon": "shopify:\/\/shop_images\/graphic_elements.png",
+            "image": "shopify:\/\/shop_images\/graphic_elements.png"
           }
         },
-        "1656067537fe59a2ed-2": {
-          "type": "email_form",
+        "d35f0fa2-56a7-409e-94e1-7905db0d714e": {
+          "type": "image",
           "settings": {
+            "heading": "“Lithographie magnifique, et tout à fait conforme aux attentes, envoi rapide et très soigné. Merci !”",
+            "author": "<p>- aurora<\/p>",
+            "image": "shopify:\/\/shop_images\/graphic_elements.png"
           }
         }
       },
       "block_order": [
-        "1656067537fe59a2ed-0",
-        "1656067537fe59a2ed-1",
-        "1656067537fe59a2ed-2"
+        "6521059a-ad2b-44bf-881e-d3add472e4cd",
+        "a4a0357b-e699-4da2-a971-fb17d838e757",
+        "d35f0fa2-56a7-409e-94e1-7905db0d714e"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "heading": "Avis des utilisateur"
       }
     }
   },
@@ -451,14 +466,14 @@
     "1655680859cb616207",
     "image_banner",
     "165573144872739819",
+    "1655804679df805668",
     "image-with-text",
     "text-with-image",
     "image-with-text2",
-    "1656068758347885f2",
     "text-with-image2",
     "165573280122717c9d",
     "1655835257bda68e9b",
     "165597692801ba214c",
-    "165606753706257307"
+    "1656068747f58bad17"
   ]
 }
