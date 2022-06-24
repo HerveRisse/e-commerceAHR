@@ -392,7 +392,8 @@
           "type": "image",
           "settings": {
             "heading": "“Lithographie magnifique, et tout à fait conforme aux attentes, envoi rapide et très soigné. Merci !”",
-            "author": "<p>- aurora<\/p>"
+            "author": "<p>- aurora<\/p>",
+            "image": "shopify:\/\/shop_images\/graphic_elements.png"
           }
         }
       },
