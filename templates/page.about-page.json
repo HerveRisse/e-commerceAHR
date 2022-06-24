@@ -93,6 +93,46 @@
         "heading": "L’Art",
         "paragraph": "<p>La  xylogravure  est une technique de gravure sur bois immémoriale à partir de différents outils (canif, burin, ciseau, gouge) qui permettent de creuser le bois. Cette technique de gravure sur bois consiste à tailler une plaque de bois à certains endroits précis, afin de laisser apparaitre un dessin sur le support.La linogravure, apparue bien plus tardivement et découlant de la xylogravure, est une technique de gravure sur lino utilisant les mêmes outils et la même technique de gravure que celle-ci. Pour ce qui est de la linogravure, je m’occupe personnellement de chaque étape de création, de la gravure de la matrice d’impression (plaque sur laquelle on étale l’encre) à l’impression elle-même. <\/p>"
       }
+    },
+    "16560795266bb55469": {
+      "type": "image-gallery",
+      "blocks": {
+        "d085627a-5231-4433-9a9f-d6277b067898": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "bb122f27-5373-4fa0-8bda-c880d4fff400": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "d08db8c8-2694-4b6d-8e21-d9426f95085c": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "9c78381a-1af8-4749-9973-c036a5ca1176": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "67f39804-e136-40f4-955b-e7cff7fa675a": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "d085627a-5231-4433-9a9f-d6277b067898",
+        "bb122f27-5373-4fa0-8bda-c880d4fff400",
+        "d08db8c8-2694-4b6d-8e21-d9426f95085c",
+        "9c78381a-1af8-4749-9973-c036a5ca1176",
+        "67f39804-e136-40f4-955b-e7cff7fa675a"
+      ],
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
@@ -101,6 +141,7 @@
     "16556766240a02baf4",
     "1655676862a9063e62",
     "1655676905055b42aa",
-    "1656078925654ad795"
+    "1656078925654ad795",
+    "16560795266bb55469"
   ]
 }
