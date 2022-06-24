@@ -406,10 +406,30 @@
             "image-catalog": "shopify:\/\/shop_images\/Capture_d_ecran_2022-06-14_a_11.19_1.png",
             "link-1": "https:\/\/www.youtube.com\/watch?v=b_Du4FQeb9I"
           }
+        },
+        "e9cf6edc-76e1-46cc-ad58-01c85ea29811": {
+          "type": "text",
+          "settings": {
+            "heading": "T-shirts",
+            "image-title": "shopify:\/\/shop_images\/Asset_12x_2.png",
+            "image-catalog": "shopify:\/\/shop_images\/Capture_d_ecran_2022-06-14_a_11.19_1.png",
+            "link-1": ""
+          }
+        },
+        "9ccc0a6f-8c39-4ee4-b1f6-144e74a8054d": {
+          "type": "text",
+          "settings": {
+            "heading": "Linographie",
+            "image-title": "shopify:\/\/shop_images\/Asset_12x_2.png",
+            "image-catalog": "shopify:\/\/shop_images\/Capture_d_ecran_2022-06-14_a_11.19_1.png",
+            "link-1": ""
+          }
         }
       },
       "block_order": [
-        "4ea54853-471d-49e4-9463-d24d31935303"
+        "4ea54853-471d-49e4-9463-d24d31935303",
+        "e9cf6edc-76e1-46cc-ad58-01c85ea29811",
+        "9ccc0a6f-8c39-4ee4-b1f6-144e74a8054d"
       ],
       "settings": {
         "heading": "bois"
@@ -435,19 +455,12 @@
           "settings": {
             "image-icon": "shopify:\/\/shop_images\/Vector_25.png"
           }
-        },
-        "11d3ca97-c6d5-4f11-9061-77c2e048062b": {
-          "type": "image",
-          "settings": {
-            "image-icon": "shopify:\/\/shop_images\/Vector_25.png"
-          }
         }
       },
       "block_order": [
         "6d4fddf9-def8-4e23-90f8-486445e276cd",
         "a25bde57-db07-40d1-b65b-777fdbc3b437",
-        "4aceb9b9-6394-4c20-865b-66394d803507",
-        "11d3ca97-c6d5-4f11-9061-77c2e048062b"
+        "4aceb9b9-6394-4c20-865b-66394d803507"
       ],
       "settings": {
         "heading": "text with icon :"
