@@ -1,18 +1,7 @@
 <div class="homepage-review_container" >
   
   {%for block in section.blocks %}
-  
-  {% assign sens = "right" %}
-  
-{% case sens %}
-  {% when "right" %}
-     <div class="homepage-review_card-container right-card">
-       {% assign sens = "left" %}
-  {% when "left" %}
-     <div class="homepage-review_card-container left-card">
-       {% assign sens = "right" %}
-{% endcase %}
-       
+   <div class="homepage-review_card-container">  
 	<h2 class ="homepage-review_title" >{{block.settings.heading}}</h2>
   	<p class = "homepage-review_author">{{block.settings.author}}</p>
 	<img class ="homepage-review_img" src="{{block.settings.stars-icon | img_url:'master'}}"/>
