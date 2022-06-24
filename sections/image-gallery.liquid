@@ -1,12 +1,48 @@
+<div class="image-gallery_container" >
+  
+<h2 class ="image-gallery_title" >{{section.settings.heading}}</h2>
+
+{%for block in section.blocks %}
+
+	<img class ="image-gallery_img" src="{{block.settings.image | img_url:'master'}}"/>
+
+{%endfor%}
+  
+</div>
+
+{% style %}
+
+{% endstyle %}
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+	{
+      "name": "image gallery",
+      "settings": [
+                      {
+                        "type":"text",
+                        "label":"headline",
+                        "id":"heading"
+                      }
+                  ],
+		"blocks":[
+					{
+						"type":"image",
+						"name":"image block",
+						"settings":[
+									{
+										"type":"image_picker",
+										"label":"your image",
+										"id":"image"
+									}
+								]
+					}
+					],
+		"presets" : [
+					{
+						"category":"image",
+						"name": "image-gallery" 
+					}
+					]
+
+	}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
