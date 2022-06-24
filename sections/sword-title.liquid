@@ -1,12 +1,43 @@
+<div class="sword-title_container" >
+  
+	<h2 class ="sword-title_title" >{{section.settings.heading}}</h2>
+
+	<img class ="sword-title_img" src="{{section.settings.image | img_url:'master'}}"/>
+
+  
+</div>
+
+{% style %}
+
+.title-with-image_container {
+text-align: center
+}
+
+{% endstyle %}
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+	{
+      "name": "sword-title",
+      "settings": [
+                      {
+                      "type":"image_picker",
+                      "label":"your image",
+                      "id":"image"
+                      },
+                      {
+                      "type":"text",
+                      "label":"headline",
+                      "id":"heading"
+                      }
+				]	,
+					
+		"presets" : [
+					{
+						"category":"image",
+						"name": "sword title" 
+					}
+					]
+
+	}
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
