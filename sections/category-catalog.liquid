@@ -9,6 +9,7 @@
               	<a class ="catalog-category_img-link" href="{{block.settings.link-1}}"><img class ="catalog-category_img_main" src="{{block.settings.image-catalog | img_url:'master'}}"/></a>
           		</div>
               </div>
+         
       	</div>
    
 {%endfor%}
@@ -17,16 +18,23 @@
 
 {% style %}
 
+
+
+
 .catalog-category_container {
 	width : 100%;
     heigth : 275px;
-    display : flex;         
+    display : flex;      
+	flex-direction: row;
 	justify-content : center;
-	gap: 4%;
+	gap: 2%;
 	z-index:100;
 	position : relative;
+	transition: 0.4s all;
                                                                                                             
 }
+
+
 .card-category_container{
 	width : 27%;
 	heigth : 95%;
@@ -35,8 +43,10 @@
 	align-item: center;
 	text-align : center;
 	z-index:100;
-	transition : 0.2s 0.1s all;
+	transition : 0.4s 0.2s  all;
 }
+
+
 .catalog-category_img-link{
 	width : 100%;
 	heigth : 100%;
@@ -44,7 +54,7 @@
 }
 .catalog-category_title{
 	font-size: 24px;
-	
+	transition : 0.6s all;
 	
 }
 .catalog-category_img{
@@ -56,25 +66,30 @@
 	width : 100%;
 	heigth: auto;
 	z-index:101;
-	transition : 0.4s all;
+	transition : 0.6s all;
 }
 
 .card-category_container:hover {
-	font-size : 28px;
-	
+
+	gap : 0px;
+	margin-top : 10px;
+	order:0;
 }
+
+
+
+
+
 .catalog-category_img_main_hover{
 	width: 100%;
 	heigth: 100%;
 	opacity:0.83;
 	z-index: 1020;
-	
-	transition : 0.5s all;
+	transition : 0.4s all;
 
 }
 .catalog-category_img_main_hover:hover {
 	opacity:1;
-	
 	
 }
 @media only screen and (max-width: 900px) {
@@ -84,8 +99,12 @@
 	heigth : 350px;
   }
 	.card-category_container{
-	width : 80%;
+	width : 60%;
 	heigth: auto;
+	opacity : 1;
+}
+.catalog-category_img_main_hover{
+	opacity : 1;
 }
 }
 
@@ -143,3 +162,16 @@
 
 }
 {% endschema %}
+{% javascript %}
+	window.onscroll = function() {scrollFunction()};
+	console.log("ok");
+function scrollFunction() {
+  if (document.body.scrollTop > 2200 || document.documentElement.scrollTop > 2200) {
+    document.querySelector(".catalog-category_container").style.opacity = "1";
+console.log("gogo");
+  } else {
+    document.querySelector(".catalog-category_container").style.opacity = "0";
+console.log("gigi");
+  }
+}
+{% endjavascript %}
