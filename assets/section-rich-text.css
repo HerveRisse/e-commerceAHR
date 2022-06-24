@@ -7,6 +7,7 @@
 
 .rich-text__text {
   font-size: 30px;
+  color: black;
 }
 
 .rich-text.rich-text--full-width {
