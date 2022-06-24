@@ -1,10 +1,21 @@
 <div class="homepage-review_container" >
   
   {%for block in section.blocks %}
-   <div class="homepage-review_card-container">  
+  
+  {% assign sens = "right" %}
+  
+{% case sens %}
+  {% when "right" %}
+     <div class="homepage-review_card-container right-card">
+       {% assign sens = "left" %}
+  {% when "left" %}
+     <div class="homepage-review_card-container left-card">
+       {% assign sens = "right" %}
+{% endcase %}
+       
 	<h2 class ="homepage-review_title" >{{block.settings.heading}}</h2>
   	<p class = "homepage-review_author">{{block.settings.author}}</p>
-	<img class ="homepage-review_img" src="{{block.settings.stars-icon | img_url:'master'}}"/>
+	<p class ="homepage-review_star"> {{block.settings.stars-icon}}</p>
 	<img class ="homepage-review_img" src="{{block.settings.image | img_url:'master'}}"/>
 	</div>
   {%endfor%}
@@ -12,7 +23,7 @@
 
 {% style %}
 
-.homepage-review_card-container {
+.homepage-review_card-container right-card {
 text-align: center;
        color: red;
 }
@@ -46,8 +57,8 @@ text-align: center;
                         "id":"author"
                         },
                         {
-                        "type":"image_picker",
-                        "label":"your image",
+                        "type":"text",
+                        "label":"nombre étoile",
                         "id":"stars-icon"
                         },
                         {
