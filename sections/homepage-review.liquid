@@ -1,14 +1,16 @@
 <div class="homepage-review_container" >
    {% assign my_variable = 0 %}
   {%for block in section.blocks %}
-   	 {{ my_variable | modulo: 2 }}	
+   	 {% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}
+  		{%if modulo == 0 %}
        <div class="homepage-review_card-container">  
         <p class ="homepage-review_title" >{{block.settings.heading}}</p>
         <p class = "homepage-review_author">{{block.settings.author}}</p>
         <p class = "homepage-review_stars-icon">{{block.settings.stars-icon}}</p>
         <img class ="homepage-review_img" src="{{block.settings.image | img_url:'master'}}"/>
         </div>
-  	 {% assign my_variable = my_variable | plus: 1 %}
+  		{%endif%}
+  	 
   {%endfor%}
 </div>
 
