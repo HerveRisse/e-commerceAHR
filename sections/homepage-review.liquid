@@ -2,7 +2,7 @@
    {% assign my_variable = 0 %}
   {%for block in section.blocks %}
    	 {% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}
-  		{%if modulo == 0 %}
+  		{%if modulo == 1 %}
        <div class="homepage-review_card-container">  
         <p class ="homepage-review_title" >{{block.settings.heading}}</p>
         <p class = "homepage-review_author">{{block.settings.author}}</p>
