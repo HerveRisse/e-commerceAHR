@@ -378,14 +378,17 @@
           "type": "image",
           "settings": {
             "heading": "Mon frère à adoré .Merci beaucoup",
-            "author": ""
+            "author": "<p>- hannahsanhueza1<\/p>",
+            "stars-icon": "ccccc",
+            "image": "shopify:\/\/shop_images\/graphic_elements.png"
           }
         },
         "9db4005d-b838-417e-aaa4-6ca049dc0b44": {
           "type": "image",
           "settings": {
-            "heading": "",
-            "author": ""
+            "heading": "“Impression de très bonne qualité, le papier est texturé, la composition est vraiment sympas. Acheté pour un anniversaire ce cadeau a fait son effet je recommande !”",
+            "author": "",
+            "stars-icon": ""
           }
         },
         "e40319a5-424c-4dbf-b7df-b001a4232bc1": {
@@ -393,6 +396,7 @@
           "settings": {
             "heading": "“Lithographie magnifique, et tout à fait conforme aux attentes, envoi rapide et très soigné. Merci !”",
             "author": "<p>- aurora<\/p>",
+            "stars-icon": "",
             "image": "shopify:\/\/shop_images\/graphic_elements.png"
           }
         }
