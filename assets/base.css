@@ -1,7 +1,8 @@
 
 @font-face {
   font-family: "Fiolex_Mephisto_Dingbats";
-  src: url("/Fiolex_Mephisto_Dingbats.woff");
+  src: url("/assets/Fiolex_Mephisto_Dingbats.woff");
+  src: url("/assets/Fiolex_Mephisto_Dingbats.ttf");
 }
 
 .homepage-review_stars-icon {
