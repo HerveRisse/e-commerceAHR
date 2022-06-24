@@ -435,37 +435,6 @@
         "heading": "bois"
       }
     },
-    "1655909000a0fc7436": {
-      "type": "text-with-icon-social",
-      "blocks": {
-        "6d4fddf9-def8-4e23-90f8-486445e276cd": {
-          "type": "image",
-          "settings": {
-            "image-icon": "shopify:\/\/shop_images\/Vector_25.png"
-          }
-        },
-        "a25bde57-db07-40d1-b65b-777fdbc3b437": {
-          "type": "image",
-          "settings": {
-            "image-icon": "shopify:\/\/shop_images\/Vector_25.png"
-          }
-        },
-        "4aceb9b9-6394-4c20-865b-66394d803507": {
-          "type": "image",
-          "settings": {
-            "image-icon": "shopify:\/\/shop_images\/Vector_25.png"
-          }
-        }
-      },
-      "block_order": [
-        "6d4fddf9-def8-4e23-90f8-486445e276cd",
-        "a25bde57-db07-40d1-b65b-777fdbc3b437",
-        "4aceb9b9-6394-4c20-865b-66394d803507"
-      ],
-      "settings": {
-        "heading": "text with icon :"
-      }
-    },
     "165597692801ba214c": {
       "type": "custom-footer",
       "blocks": {
@@ -506,73 +475,6 @@
       ],
       "settings": {
       }
-    },
-    "1655977551f8dbf48d": {
-      "type": "multicolumn",
-      "blocks": {
-        "1655977551b97a57de-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vector.png",
-            "title": "Paiement sécurisé",
-            "text": "",
-            "link_label": "",
-            "link": "https:\/\/www.codingame.com\/start"
-          }
-        },
-        "1655977551b97a57de-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vector-2.png",
-            "title": "Livraison Gratuite à l’internationale",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1655977551b97a57de-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vector-3.png",
-            "title": "Fabriqué en France",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "b3ee4ad5-0150-4a6f-b96b-b63fc7864ca4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vector-4.png",
-            "title": "Possiblité de personnalisation",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1655977551b97a57de-0",
-        "1655977551b97a57de-1",
-        "1655977551b97a57de-2",
-        "b3ee4ad5-0150-4a6f-b96b-b63fc7864ca4"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -587,8 +489,6 @@
     "165573280122717c9d",
     "1655804679df805668",
     "1655835257bda68e9b",
-    "1655909000a0fc7436",
-    "165597692801ba214c",
-    "1655977551f8dbf48d"
+    "165597692801ba214c"
   ]
 }
