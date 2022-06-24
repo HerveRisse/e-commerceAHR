@@ -125,23 +125,6 @@
         "padding_bottom": 0
       }
     },
-    "1655804679df805668": {
-      "type": "title-with-image",
-      "blocks": {
-        "9f6670bb-a90b-4cc3-bbc7-e43620d5ea48": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Asset_12x_2.png"
-          }
-        }
-      },
-      "block_order": [
-        "9f6670bb-a90b-4cc3-bbc7-e43620d5ea48"
-      ],
-      "settings": {
-        "heading": "Les best seller"
-      }
-    },
     "image-with-text": {
       "type": "image-with-text",
       "disabled": true,
@@ -269,6 +252,13 @@
         "padding_bottom": 20
       }
     },
+    "1656068758347885f2": {
+      "type": "sword-title",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Calque_1.png",
+        "heading": "Les Best Sellers"
+      }
+    },
     "text-with-image2": {
       "type": "image-with-text",
       "disabled": true,
@@ -317,7 +307,7 @@
     "165573280122717c9d": {
       "type": "featured-collection",
       "settings": {
-        "title": "Catalogue",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -455,28 +445,20 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "1656068758347885f2": {
-      "type": "sword-title",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Calque_1.png",
-        "heading": "Les Best Sellers"
-      }
     }
   },
   "order": [
     "1655680859cb616207",
     "image_banner",
     "165573144872739819",
-    "1655804679df805668",
     "image-with-text",
     "text-with-image",
     "image-with-text2",
+    "1656068758347885f2",
     "text-with-image2",
     "165573280122717c9d",
     "1655835257bda68e9b",
     "165597692801ba214c",
-    "165606753706257307",
-    "1656068758347885f2"
+    "165606753706257307"
   ]
 }
