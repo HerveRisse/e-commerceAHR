@@ -1,12 +1,54 @@
+<div class="sword-title_container" >
+  
+	<h2 class ="sword-title_title" >{{section.settings.heading}}</h2>
+
+	<img class ="sword-title_img" src="{{section.settings.image | img_url:'master'}}"/>
+
+  
+</div>
+
+{% style %}
+
+.title-with-image_container {
+text-align: center
+}
+
+{% endstyle %}
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+	{
+      "name": "homepage review",
+      "settings": [
+                      {
+                      "type":"text",
+                      "label":"headline",
+                      "id":"heading"
+                      },
+					  {
+                      "type":"richtext",
+                      "label":"headline",
+                      "id":"author"
+                      },
+					  {
+                      "type":"image_picker",
+                      "label":"your image",
+                      "id":"stars-icon"
+                      },
+					  {
+                      "type":"image_picker",
+                      "label":"your image",
+                      "id":"image"
+                      }
+				]	,
+					
+		"presets" : [
+					{
+						"category":"image",
+						"name": "homepage review" 
+					}
+					]
+
+	}
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
 
-{% javascript %}
-{% endjavascript %}
