@@ -486,7 +486,7 @@
     "1656197377210b1fde": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id = \"video\" class = \"video-presentation\">\n<video  autoplay src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4531f1d99d50496eb19237ab7f864672.mp4\">\n{% style %}\nvideo{\nwidth: 100%;\nheight : auto;\n}\n{% endstyle %}\n<script>\ndocument.querySelector('#video').autoplay = false;\n<\/script>",
+        "custom_liquid": "<div id = \"video\" class = \"video-presentation\">\n<video  autoplay src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4531f1d99d50496eb19237ab7f864672.mp4\">\n{% style %}\nvideo{\nwidth: 100%;\nheight : auto;\n}\n{% endstyle %}\n<script>\nlet a=document.querySelector('#video');\na.addEventListener('mouseover',()=> { a.muted = 1;});\n<\/script>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
