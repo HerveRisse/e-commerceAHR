@@ -9,15 +9,21 @@
           <p class = "homepage-review_stars-icon">{{block.settings.stars-icon}}</p>
           <img class ="homepage-review_img" src="{{block.settings.image | img_url:'master'}}"/>
           </div>
+  		<div class = "image-review_container">
+  			<a class ="catalog-category_img-link" href="{{block.settings.link-1}}"><img class ="catalog-category_img_main" src="{{block.settings.image-catalog | img_url:'master'}}"/></a>
+  		</div>
   		{%endif %}
-  {%if mod == 1%}
+  		{%if mod == 1%}
          <div class="homepage-review_card-container left">  
           <p class ="homepage-review_title" >{{block.settings.heading}}</p>
           <p class = "homepage-review_author">{{block.settings.author}}</p>
           <p class = "homepage-review_stars-icon">{{block.settings.stars-icon}}</p>
           <img class ="homepage-review_img" src="{{block.settings.image | img_url:'master'}}"/>
           </div>
-  		{%endif %}
+  			<div class = "image-review_container">
+  				<a class ="catalog-category_img-link" href="{{block.settings.link-1}}"><img class ="catalog-category_img_main" src="{{block.settings.image-catalog | img_url:'master'}}"/></a>
+  			</div>
+       {%endif %}
   	
   {%endfor%}
 </div>
@@ -106,7 +112,19 @@
                         "type":"image_picker",
                         "label":"your image",
                         "id":"image"
+                        },
+                        {
+                        "type":"image_picker",
+                        "label":"your image",
+                        "id":"image-catalog"
+                        },
+                        {
+                        "type": "url",
+                        "id": "link-1",
+                        "label": "Link URL 1"
+
                         }
+	
   					]
   				}
                   ],
