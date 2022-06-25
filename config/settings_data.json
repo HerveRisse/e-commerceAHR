@@ -123,21 +123,21 @@
             "type": "text",
             "settings": {
               "heading": "Services en ligne",
-              "subtext": "<p>Les produits<\/p><p>Mode de paiement<\/p><p> Options de livraison<\/p><p> Retours<\/p><p> FAQ <\/p>"
+              "subtext": "<p><em>Les produits<\/em><\/p><p><em>Mode de paiement<\/em><\/p><p><em> Options de livraison<\/em><\/p><p><em> Retours<\/em><\/p><p><em> FAQ <\/em><\/p>"
             }
           },
           "1ee7b6fe-61d6-4fd4-85f9-7150105e5d8f": {
             "type": "text",
             "settings": {
               "heading": "Informations légales",
-              "subtext": "<p>Mention <\/p><p>légalSécurité et confidentialité<\/p><p>Politique retour et échange<\/p><p>Conditions de vente<\/p>"
+              "subtext": "<p><em>Mention <\/em><\/p><p><em>légal<\/em><\/p><p><em>Sécurité et confidentialité<\/em><\/p><p><em>Politique retour et échange<\/em><\/p><p><em>Conditions de vente<\/em><\/p>"
             }
           },
           "66f0de70-2784-4dbc-84ca-a9152beaa627": {
             "type": "text",
             "settings": {
               "heading": "Newsletter",
-              "subtext": "<p>Soyez les premiers informés de nos dernières créations et événements spéciaux, et bien plus encore.<\/p>"
+              "subtext": "<p><em>Soyez les premiers informés de nos dernières créations et événements spéciaux, et bien plus encore.<\/em><\/p>"
             }
           }
         },
