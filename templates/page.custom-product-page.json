@@ -8,20 +8,10 @@
         "padding_bottom": 28
       }
     },
-    "1656175270bdcfbbc1": {
-      "type": "title-with-image",
-      "blocks": {
-        "b012fad1-5195-4c7e-a7f3-b6da7e700e77": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/graphic_elements0.png"
-          }
-        }
-      },
-      "block_order": [
-        "b012fad1-5195-4c7e-a7f3-b6da7e700e77"
-      ],
+    "1656177148dd0a515a": {
+      "type": "sword-title",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Calque_1_70413f15-fa5f-4a12-8837-fb1fa03052a0.png",
         "heading": "Demande personnalisée"
       }
     },
@@ -58,7 +48,7 @@
   },
   "order": [
     "main",
-    "1656175270bdcfbbc1",
+    "1656177148dd0a515a",
     "1655676147110deaa1",
     "165567615381eb65c4"
   ]
