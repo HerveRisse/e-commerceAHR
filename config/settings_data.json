@@ -84,7 +84,7 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/m.facebook.com\/MathThePrinter\/",
     "social_pinterest_link": "",
     "social_instagram_link": "",
     "social_tiktok_link": "",
@@ -118,9 +118,46 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "7b8a63c3-6f7a-4471-824f-7d0b63a2a0b2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/graphic_elements0.png",
+              "image_width": 100,
+              "alignment": "center"
+            }
+          },
+          "f1d26e73-a834-4aae-8671-6228e1d981a5": {
+            "type": "text",
+            "settings": {
+              "heading": "Services en ligne",
+              "subtext": "<p>Les produitsMode de paiement Options de livraison Retours FAQ <\/p>"
+            }
+          },
+          "1ee7b6fe-61d6-4fd4-85f9-7150105e5d8f": {
+            "type": "text",
+            "settings": {
+              "heading": "Informations légales",
+              "subtext": "<p>Mention légalSécurité et confidentialitéPolitique retour et échangeConditions de vente<\/p>"
+            }
+          },
+          "66f0de70-2784-4dbc-84ca-a9152beaa627": {
+            "type": "text",
+            "settings": {
+              "heading": "Newsletter",
+              "subtext": "<p>Soyez les premiers informés de nos dernières créations et événements spéciaux, et bien plus encore.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "7b8a63c3-6f7a-4471-824f-7d0b63a2a0b2",
+          "f1d26e73-a834-4aae-8671-6228e1d981a5",
+          "1ee7b6fe-61d6-4fd4-85f9-7150105e5d8f",
+          "66f0de70-2784-4dbc-84ca-a9152beaa627"
+        ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": false,
+          "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": false,
           "enable_country_selector": false,
