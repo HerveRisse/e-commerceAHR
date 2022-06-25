@@ -1,5 +1,19 @@
 {
   "sections": {
+    "1656196411f14fddb8": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h0",
+        "cover_image": "shopify:\/\/shop_images\/image_5.png",
+        "video_url": "https:\/\/youtu.be\/8r3aIV5iS88",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -35,20 +49,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
-      }
-    },
-    "165573144872739819": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h0",
-        "cover_image": "shopify:\/\/shop_images\/image_5.png",
-        "video_url": "https:\/\/youtu.be\/QKj0xzFF_xk",
-        "description": "math the printer performance",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "1655680859cb616207": {
@@ -499,8 +499,8 @@
     }
   },
   "order": [
+    "1656196411f14fddb8",
     "image_banner",
-    "165573144872739819",
     "1655680859cb616207",
     "text-with-image",
     "image-with-text2",
