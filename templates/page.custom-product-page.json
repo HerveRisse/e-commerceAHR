@@ -8,16 +8,26 @@
         "padding_bottom": 28
       }
     },
+    "1656175270bdcfbbc1": {
+      "type": "title-with-image",
+      "blocks": {
+        "b012fad1-5195-4c7e-a7f3-b6da7e700e77": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/graphic_elements0.png"
+          }
+        }
+      },
+      "block_order": [
+        "b012fad1-5195-4c7e-a7f3-b6da7e700e77"
+      ],
+      "settings": {
+        "heading": "Demande personnalisée"
+      }
+    },
     "1655676147110deaa1": {
       "type": "rich-text",
       "blocks": {
-        "1655676147048eaeb0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Demande personnalisée",
-            "heading_size": "h1"
-          }
-        },
         "1655676147048eaeb0-1": {
           "type": "text",
           "settings": {
@@ -26,7 +36,6 @@
         }
       },
       "block_order": [
-        "1655676147048eaeb0-0",
         "1655676147048eaeb0-1"
       ],
       "settings": {
@@ -49,6 +58,7 @@
   },
   "order": [
     "main",
+    "1656175270bdcfbbc1",
     "1655676147110deaa1",
     "165567615381eb65c4"
   ]
