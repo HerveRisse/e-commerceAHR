@@ -489,6 +489,13 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/graphic_elements_footer.png"
       }
+    },
+    "1656194152722c098f": {
+      "type": "sword-title",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Calque_1_70413f15-fa5f-4a12-8837-fb1fa03052a0.png",
+        "heading": "Les Bons Cadeaux"
+      }
     }
   },
   "order": [
@@ -508,6 +515,7 @@
     "image-with-text",
     "1656173919d5debc3f",
     "165597692801ba214c",
-    "1656181226b22693fb"
+    "1656181226b22693fb",
+    "1656194152722c098f"
   ]
 }
