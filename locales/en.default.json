@@ -422,5 +422,15 @@
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "remember_me": {
+        "description_html": " "
+      }
+    },
+    "links": {
+      "powered_by_shopify": " "
+    }
   }
 }
