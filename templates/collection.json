@@ -25,10 +25,18 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1656177047700b09a4": {
+      "type": "sword-title",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Calque_1_70413f15-fa5f-4a12-8837-fb1fa03052a0.png",
+        "heading": "Mes créations"
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "1656177047700b09a4"
   ]
 }
