@@ -371,6 +371,13 @@
         "heading": "bois"
       }
     },
+    "1656169955c2ff3e28": {
+      "type": "sword-title",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Calque_1.png",
+        "heading": "Leurs avis"
+      }
+    },
     "1656072120c2a859e2": {
       "type": "homepage-review",
       "blocks": {
@@ -458,11 +465,11 @@
       "settings": {
       }
     },
-    "1656169955c2ff3e28": {
+    "1656169981e627b757": {
       "type": "sword-title",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Asset_12x_4.png",
-        "heading": "Leurs avis"
+        "image": "shopify:\/\/shop_images\/Calque_1.png",
+        "heading": "Mes Services"
       }
     }
   },
@@ -477,8 +484,9 @@
     "text-with-image2",
     "165573280122717c9d",
     "1655835257bda68e9b",
+    "1656169955c2ff3e28",
     "1656072120c2a859e2",
     "165597692801ba214c",
-    "1656169955c2ff3e28"
+    "1656169981e627b757"
   ]
 }
