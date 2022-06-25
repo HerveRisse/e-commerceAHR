@@ -380,7 +380,9 @@
             "heading": "Mon frère à adoré .Merci beaucoup",
             "author": "<p>- hannahsanhueza1<\/p>",
             "stars-icon": "ccccc",
-            "image": "shopify:\/\/shop_images\/graphic_elements.png"
+            "image": "shopify:\/\/shop_images\/graphic_elements.png",
+            "image-catalog": "shopify:\/\/shop_images\/hp_galerie.png",
+            "link-1": ""
           }
         },
         "9db4005d-b838-417e-aaa4-6ca049dc0b44": {
@@ -389,7 +391,8 @@
             "heading": "“Impression de très bonne qualité, le papier est texturé, la composition est vraiment sympas. Acheté pour un anniversaire ce cadeau a fait son effet je recommande !”",
             "author": "<p>- margot<\/p>",
             "stars-icon": "ccccc",
-            "image": "shopify:\/\/shop_images\/graphic_elements.png"
+            "image": "shopify:\/\/shop_images\/graphic_elements.png",
+            "link-1": ""
           }
         },
         "e40319a5-424c-4dbf-b7df-b001a4232bc1": {
@@ -398,7 +401,8 @@
             "heading": "“Lithographie magnifique, et tout à fait conforme aux attentes, envoi rapide et très soigné. Merci !”",
             "author": "<p>- aurora<\/p>",
             "stars-icon": "★★★★★",
-            "image": "shopify:\/\/shop_images\/ccccc.png"
+            "image": "shopify:\/\/shop_images\/ccccc.png",
+            "link-1": ""
           }
         }
       },
