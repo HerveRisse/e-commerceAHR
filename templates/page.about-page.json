@@ -1,28 +1,18 @@
 {
   "sections": {
-    "16560784857bdb4c20": {
-      "type": "title-with-image",
-      "blocks": {
-        "d650f2d3-dfe6-4af4-891d-0425ccafa361": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/graphic_elements0.png"
-          }
-        }
-      },
-      "block_order": [
-        "d650f2d3-dfe6-4af4-891d-0425ccafa361"
-      ],
-      "settings": {
-        "heading": "A propos"
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "1656177812e36ee598": {
+      "type": "sword-title",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Calque_1_70413f15-fa5f-4a12-8837-fb1fa03052a0.png",
+        "heading": "A propos"
       }
     },
     "16556766240a02baf4": {
@@ -216,8 +206,8 @@
     }
   },
   "order": [
-    "16560784857bdb4c20",
     "main",
+    "1656177812e36ee598",
     "16556766240a02baf4",
     "1656078925654ad795",
     "1655676862a9063e62",
