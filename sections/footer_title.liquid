@@ -1,12 +1,44 @@
+<div class="footer-title_container" >
+
+    <h2 class ="footer-title_title" >{{section.settings.heading}}</h2>
+
+    <img class ="footer-title_img" src="{{section.settings.image | img_url:'master'}}"/>
+	
+
+</div>
+
+{% style %}
+
+.footer-title_container {
+    text-align: center;
+    width: 100vw;
+    height :80px;
+    display:flex;
+    justify-content: center;
+	background-color; rgb(333333);
+}
+.sword-title_img{
+    order : -1;
+}
+
+
+{% endstyle %}
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+   {
+   "name":"footer-title",
+   "settings":[
+      {
+         "type":"image_picker",
+         "label":"your image",
+         "id":"image"
+      }
+   ],
+   "presets":[
+      {
+         "category":"image",
+         "name":"footer-title"
+      }
+   ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
