@@ -331,6 +331,13 @@
         "padding_bottom": 36
       }
     },
+    "1656169981e627b757": {
+      "type": "sword-title",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Calque_1.png",
+        "heading": "Mes Services"
+      }
+    },
     "1655835257bda68e9b": {
       "type": "category-catalog",
       "blocks": {
@@ -464,13 +471,6 @@
       ],
       "settings": {
       }
-    },
-    "1656169981e627b757": {
-      "type": "sword-title",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Calque_1.png",
-        "heading": "Mes Services"
-      }
     }
   },
   "order": [
@@ -483,10 +483,10 @@
     "1656068758347885f2",
     "text-with-image2",
     "165573280122717c9d",
+    "1656169981e627b757",
     "1655835257bda68e9b",
     "1656169955c2ff3e28",
     "1656072120c2a859e2",
-    "165597692801ba214c",
-    "1656169981e627b757"
+    "165597692801ba214c"
   ]
 }
