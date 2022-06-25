@@ -471,6 +471,40 @@
       ],
       "settings": {
       }
+    },
+    "1656172997cf57f409": {
+      "type": "alt-footer",
+      "blocks": {
+        "f341fad6-85ed-4314-b49e-bc0c8db857eb": {
+          "type": "text",
+          "settings": {
+            "heading": "Services en ligne",
+            "paragraph": "<p>Les produitsMode de paiement Options de livraison Retours FAQ <\/p>"
+          }
+        },
+        "0d6aa456-a9f7-4877-9256-1c1354ce19bb": {
+          "type": "text",
+          "settings": {
+            "heading": "Informations légales",
+            "paragraph": "<p>Mention légalSécurité et confidentialitéPolitique retour et échangeConditions de vente<\/p>"
+          }
+        },
+        "a868bf9b-4703-40c7-bb81-34db00f8b117": {
+          "type": "text",
+          "settings": {
+            "heading": "Newsletter",
+            "paragraph": "<p>Soyez les premiers informés de nos dernières créations et événements spéciaux, et bien plus encore.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f341fad6-85ed-4314-b49e-bc0c8db857eb",
+        "0d6aa456-a9f7-4877-9256-1c1354ce19bb",
+        "a868bf9b-4703-40c7-bb81-34db00f8b117"
+      ],
+      "settings": {
+        "image-heading": "shopify:\/\/shop_images\/graphic_elements0.png"
+      }
     }
   },
   "order": [
@@ -487,6 +521,7 @@
     "1655835257bda68e9b",
     "1656169955c2ff3e28",
     "1656072120c2a859e2",
-    "165597692801ba214c"
+    "165597692801ba214c",
+    "1656172997cf57f409"
   ]
 }
