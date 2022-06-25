@@ -13,7 +13,7 @@
   {%if mod == 1%}
          <div class="homepage-review_card-container left">  
           <p class ="homepage-review_title" >{{block.settings.heading}}</p>
-          <p class = "homepage-review_title">{{block.settings.author}}</p>
+          <p class = "homepage-review_author">{{block.settings.author}}</p>
           <p class = "homepage-review_stars-icon">{{block.settings.stars-icon}}</p>
           <img class ="homepage-review_img" src="{{block.settings.image | img_url:'master'}}"/>
           </div>
@@ -47,7 +47,15 @@
 	flex-direction : column;
 	align-items: center;
 	justify-content: flex-start;
-	
+	transition : 0.4s 0.2s all;
+}
+.homepage-review_card-container:hover{
+	border : 2px solid grey;
+	text-decoration : underline;
+}
+.homepage-review_card-container:hover > .homepage-review_author {
+	font-weight : 500;
+	font-size : 20px;
 }
 .homepage-review_title,homepage-review_title,homepage-review_stars-icon{
 	text-align:center;
