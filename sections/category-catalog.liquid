@@ -179,7 +179,14 @@ function scrollFunction() {
       }
 		}
 	else {
-		document.querySelector(".catalog-category_container").style.opacity = "1";
+		if ((document.body.scrollTop > 1580 || document.documentElement.scrollTop > 1580) ) {
+        document.querySelector(".catalog-category_container").style.opacity = "1";
+		console.log(screen.width);
+
+      } else {
+        document.querySelector(".catalog-category_container").style.opacity = "0";
+
+      }
 	}
 }
 {% endjavascript %}
