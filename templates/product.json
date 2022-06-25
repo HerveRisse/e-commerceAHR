@@ -41,48 +41,6 @@
           "settings": {
             "show_dynamic_checkout": true
           }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -92,12 +50,7 @@
         "description",
         "price",
         "quantity_selector",
-        "buy_buttons",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
-        "share"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -126,10 +79,52 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "16561786221006d334": {
+      "type": "custom-footer",
+      "blocks": {
+        "196c7c6d-b4ce-4914-8862-f19994e71bfe": {
+          "type": "image",
+          "settings": {
+            "image-icon-footer": "shopify:\/\/shop_images\/Vector.png",
+            "heading": "Paiement sécurisé"
+          }
+        },
+        "e76f52d5-a699-46f3-92d3-7c0f81dcc8f2": {
+          "type": "image",
+          "settings": {
+            "image-icon-footer": "shopify:\/\/shop_images\/Vector-2.png",
+            "heading": "Livraison gratuite à l’international"
+          }
+        },
+        "a41fe9b3-4d73-4750-9a32-eb013890c26a": {
+          "type": "image",
+          "settings": {
+            "image-icon-footer": "shopify:\/\/shop_images\/Vector-3.png",
+            "heading": "Fabriqué en France"
+          }
+        },
+        "45679029-e8cc-44c9-9278-6455b59dd123": {
+          "type": "image",
+          "settings": {
+            "image-icon-footer": "shopify:\/\/shop_images\/Vector-4.png",
+            "heading": "Possiblité de personnalisation"
+          }
+        }
+      },
+      "block_order": [
+        "196c7c6d-b4ce-4914-8862-f19994e71bfe",
+        "e76f52d5-a699-46f3-92d3-7c0f81dcc8f2",
+        "a41fe9b3-4d73-4750-9a32-eb013890c26a",
+        "45679029-e8cc-44c9-9278-6455b59dd123"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "16561786221006d334"
   ]
 }
