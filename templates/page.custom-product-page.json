@@ -51,17 +51,18 @@
         "16561947989e12d7b6-0": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/Img.png",
+            "heading": "Exlibris",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "Offrez un Exlibris personnalisé à l’effigie de votre frère, soeur, ou même de leur personnage fantastique préféré, style médiéval !",
+            "button_label": "offrir",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-right",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "background-2",
             "text_alignment_mobile": "center"
           }
         },
