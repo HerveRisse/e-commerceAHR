@@ -1,12 +1,54 @@
+
+<img class ="title-with-image_img" src="{{block.settings.image-icon-footer | img_url:'master'}}"/>
+{%for block in section.blocks %}
+<div class="text-with-paragraph_container" > 
+	<p class ="text-with-paragraph_text" >{{block.settings.heading}}</p>
+  	<p class = "text-with-paragraph_pargraph">{{block.settings.paragraph}}</p>
+</div>
+{%endfor%}
+
+{% style %}
+
+{% endstyle %}
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+  "name": "alt footer",
+"class" : "section",
+        "settings": [
+                        {
+                        "type":"image_picker",
+                        "label":"image",
+                        "id":"image-heading"
+                        }
+  					]
+  				
+                  ,
+		"blocks": [{
+					"type":"text",
+                        "name":"paragraph",
+                        "settings":[
+                                    {
+                                      "type":"text",
+                                      "label":"headline",
+                                      "id":"heading"
+                                      },
+                                      {
+                                      "type":"richtext",
+                                      "label":"texte",
+                                      "id":"paragraph"
+                                    }
+									]
+					}
+					],
+
+          "presets" : [
+                      {
+                          "category":"image",
+                          "name": "text-with-paragraph" 
+                      }
+                      ]
+
+	
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
