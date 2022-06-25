@@ -1,5 +1,56 @@
 {
   "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dark medieval linocut & woodcut. Freely inspired by XVth century block printing",
+            "heading_size": "h0"
+          }
+        },
+        "7d04ffef-4900-491c-8290-d0920808ee25": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "7d04ffef-4900-491c-8290-d0920808ee25"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_5.png",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "165573144872739819": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h0",
+        "cover_image": "shopify:\/\/shop_images\/image_5.png",
+        "video_url": "https:\/\/youtu.be\/QKj0xzFF_xk",
+        "description": "demo video",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "1655680859cb616207": {
       "type": "slideshow",
       "blocks": {
@@ -71,57 +122,6 @@
         "change_slides_speed": 3,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Dark medieval linocut & woodcut. Freely inspired by XVth century block printing",
-            "heading_size": "h0"
-          }
-        },
-        "7d04ffef-4900-491c-8290-d0920808ee25": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "7d04ffef-4900-491c-8290-d0920808ee25"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_5.png",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "165573144872739819": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h0",
-        "cover_image": "shopify:\/\/shop_images\/image_5.png",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "demo video",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "text-with-image": {
@@ -291,6 +291,13 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "1656194152722c098f": {
+      "type": "sword-title",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Calque_1_70413f15-fa5f-4a12-8837-fb1fa03052a0.png",
+        "heading": "Les Bons Cadeaux"
       }
     },
     "1656169981e627b757": {
@@ -489,24 +496,18 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/graphic_elements_footer.png"
       }
-    },
-    "1656194152722c098f": {
-      "type": "sword-title",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Calque_1_70413f15-fa5f-4a12-8837-fb1fa03052a0.png",
-        "heading": "Les Bons Cadeaux"
-      }
     }
   },
   "order": [
-    "1655680859cb616207",
     "image_banner",
     "165573144872739819",
+    "1655680859cb616207",
     "text-with-image",
     "image-with-text2",
     "1656068758347885f2",
     "text-with-image2",
     "165573280122717c9d",
+    "1656194152722c098f",
     "1656169981e627b757",
     "1655835257bda68e9b",
     "1656169955c2ff3e28",
@@ -515,7 +516,6 @@
     "image-with-text",
     "1656173919d5debc3f",
     "165597692801ba214c",
-    "1656181226b22693fb",
-    "1656194152722c098f"
+    "1656181226b22693fb"
   ]
 }
