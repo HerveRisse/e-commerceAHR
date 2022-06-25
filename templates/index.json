@@ -125,43 +125,6 @@
         "padding_bottom": 0
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Welcome on my online store ! You can wander around my latest artworks, freely inspired by XVth and XVIth woodcuts ! Beware the skelettons, demons and other pop culture references such as Tolkien characters, or Warhammer 40K references!<\/p><p><\/p><p><\/p>",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Discover",
-            "button_link": "shopify:\/\/pages\/about"
-          }
-        }
-      },
-      "block_order": [
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Capture_d_ecran_2022-06-14_a_11.21_1.png",
-        "height": "large",
-        "desktop_image_width": "large",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 20
-      }
-    },
     "text-with-image": {
       "type": "image-with-text",
       "disabled": true,
@@ -438,6 +401,42 @@
         "heading": "A propos de vos commandes"
       }
     },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome on my online store ! You can wander around my latest artworks, freely inspired by XVth and XVIth woodcuts ! Beware the skelettons, demons and other pop culture references such as Tolkien characters, or Warhammer 40K references!<\/p><p><\/p><p><\/p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover",
+            "button_link": "shopify:\/\/pages\/about"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Capture_d_ecran_2022-06-14_a_11.21_1.png",
+        "height": "large",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
     "165597692801ba214c": {
       "type": "custom-footer",
       "blocks": {
@@ -478,47 +477,12 @@
       ],
       "settings": {
       }
-    },
-    "1656172997cf57f409": {
-      "type": "alt-footer",
-      "blocks": {
-        "f341fad6-85ed-4314-b49e-bc0c8db857eb": {
-          "type": "text",
-          "settings": {
-            "heading": "Services en ligne",
-            "paragraph": "<p>Les produitsMode de paiement Options de livraison Retours FAQ <\/p>"
-          }
-        },
-        "0d6aa456-a9f7-4877-9256-1c1354ce19bb": {
-          "type": "text",
-          "settings": {
-            "heading": "Informations légales",
-            "paragraph": "<p>Mention légalSécurité et confidentialitéPolitique retour et échangeConditions de vente<\/p>"
-          }
-        },
-        "a868bf9b-4703-40c7-bb81-34db00f8b117": {
-          "type": "text",
-          "settings": {
-            "heading": "Newsletter",
-            "paragraph": "<p>Soyez les premiers informés de nos dernières créations et événements spéciaux, et bien plus encore.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "f341fad6-85ed-4314-b49e-bc0c8db857eb",
-        "0d6aa456-a9f7-4877-9256-1c1354ce19bb",
-        "a868bf9b-4703-40c7-bb81-34db00f8b117"
-      ],
-      "settings": {
-        "image-heading": "shopify:\/\/shop_images\/graphic_elements0.png"
-      }
     }
   },
   "order": [
     "1655680859cb616207",
     "image_banner",
     "165573144872739819",
-    "image-with-text",
     "text-with-image",
     "image-with-text2",
     "1656068758347885f2",
@@ -529,7 +493,7 @@
     "1656169955c2ff3e28",
     "1656072120c2a859e2",
     "1656173919d5debc3f",
-    "165597692801ba214c",
-    "1656172997cf57f409"
+    "image-with-text",
+    "165597692801ba214c"
   ]
 }
