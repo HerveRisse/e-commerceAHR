@@ -37,7 +37,18 @@
 
 {% style %}
 
+.review-image_container{
+	width: 100%;
+	height: auto;
+	display:flex;
+	justify-content : center;
+	gap : 10%;
+	flex-direction : row;
+}
+.review-image_container:hover{
+	gap : 30%;
 
+}
 .homepage-review_container {
 	width : 100%;
 	height : auto; 
@@ -64,13 +75,7 @@
 	justify-content: flex-start;
 	transition : 0.4s 0.2s all;
 }
-.review-image_container{
-	width: 100%;
-	height: auto;
-	display:flex;
-	justify-content : space-around;
-	flex-direction : row;
-}
+
 .homepage-review_card-container:hover{
 	text-decoration : underline;
 	line-height : 2;
@@ -88,6 +93,13 @@
 }
 .homepage-review_title{
 	font-size : 28px;
+}
+.image-review_container{
+	border 1px solid black;
+	border-radius: 50%;
+}
+.review-image_container:hover > .image-review_container{
+	border-radius: 12px:
 }
 
 {% endstyle %}
