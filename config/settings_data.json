@@ -119,14 +119,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "7b8a63c3-6f7a-4471-824f-7d0b63a2a0b2": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/graphic_elements0.png",
-              "image_width": 100,
-              "alignment": "center"
-            }
-          },
           "f1d26e73-a834-4aae-8671-6228e1d981a5": {
             "type": "text",
             "settings": {
@@ -157,7 +149,6 @@
           }
         },
         "block_order": [
-          "7b8a63c3-6f7a-4471-824f-7d0b63a2a0b2",
           "f1d26e73-a834-4aae-8671-6228e1d981a5",
           "1ee7b6fe-61d6-4fd4-85f9-7150105e5d8f",
           "66f0de70-2784-4dbc-84ca-a9152beaa627",
