@@ -371,6 +371,23 @@
         "heading": "bois"
       }
     },
+    "16561675515ed60fda": {
+      "type": "title-with-image",
+      "blocks": {
+        "61eeff4f-43fe-43db-a1e5-81132457a60d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/graphic_elements0.png"
+          }
+        }
+      },
+      "block_order": [
+        "61eeff4f-43fe-43db-a1e5-81132457a60d"
+      ],
+      "settings": {
+        "heading": "Leurs avis"
+      }
+    },
     "1656072120c2a859e2": {
       "type": "homepage-review",
       "blocks": {
@@ -470,6 +487,7 @@
     "text-with-image2",
     "165573280122717c9d",
     "1655835257bda68e9b",
+    "16561675515ed60fda",
     "1656072120c2a859e2",
     "165597692801ba214c"
   ]
