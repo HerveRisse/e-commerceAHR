@@ -4,14 +4,14 @@
    	  {% assign mod = forloop.index | modulo: 2 %}
   		{%if mod == 0%}
   		<div class = "review-image_container">	
-             <div class="homepage-review_card-container ">  
+             <div class="homepage-review_card-container right">  
               <p class ="homepage-review_title" >{{block.settings.heading}}</p>
               <p class = "homepage-review_author">{{block.settings.author}}</p>
               <p class = "homepage-review_stars-icon">{{block.settings.stars-icon}}</p>
               <img class ="homepage-review_img" src="{{block.settings.image | img_url:'master'}}"/>
               </div>
           
-            <div class = "image-review_container ordering left">
+            <div class = "image-review_container ordering ">
                 <a class ="catalog-category_img-link" href="{{block.settings.link-1}}"><img class ="catalog-category_img_main" src="{{block.settings.image-catalog | img_url:'master'}}"/></a>
             </div>
   		</div>
@@ -19,11 +19,11 @@
   		{%endif %}
   		{%if mod == 1%}
 			<div class = "review-image_container">
-                <div class = "image-review_container ordering right">
+                <div class = "image-review_container ordering ">
                   <a class ="catalog-category_img-link" href="{{block.settings.link-1}}"><img class ="catalog-category_img_main" src="{{block.settings.image-catalog | img_url:'master'}}"/></a>
                 </div>
 
-               <div class="homepage-review_card-container  ">  
+               <div class="homepage-review_card-container left ">  
                 <p class ="homepage-review_title" >{{block.settings.heading}}</p>
                 <p class = "homepage-review_author">{{block.settings.author}}</p>
                 <p class = "homepage-review_stars-icon">{{block.settings.stars-icon}}</p>
