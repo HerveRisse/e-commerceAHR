@@ -331,23 +331,6 @@
         "padding_bottom": 36
       }
     },
-    "16561675515ed60fda": {
-      "type": "title-with-image",
-      "blocks": {
-        "61eeff4f-43fe-43db-a1e5-81132457a60d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Asset_12x_4.png"
-          }
-        }
-      },
-      "block_order": [
-        "61eeff4f-43fe-43db-a1e5-81132457a60d"
-      ],
-      "settings": {
-        "heading": "Mes Services"
-      }
-    },
     "1655835257bda68e9b": {
       "type": "category-catalog",
       "blocks": {
@@ -386,22 +369,6 @@
       ],
       "settings": {
         "heading": "bois"
-      }
-    },
-    "1656168733191ee736": {
-      "type": "title-with-image",
-      "blocks": {
-        "aa1efd0f-6f95-4841-be4b-2d23d97a05d3": {
-          "type": "image",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "aa1efd0f-6f95-4841-be4b-2d23d97a05d3"
-      ],
-      "settings": {
-        "heading": "Leurs Avis"
       }
     },
     "1656072120c2a859e2": {
@@ -490,6 +457,13 @@
       ],
       "settings": {
       }
+    },
+    "1656169955c2ff3e28": {
+      "type": "sword-title",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Asset_12x_4.png",
+        "heading": "Leurs avis"
+      }
     }
   },
   "order": [
@@ -502,10 +476,9 @@
     "1656068758347885f2",
     "text-with-image2",
     "165573280122717c9d",
-    "16561675515ed60fda",
     "1655835257bda68e9b",
-    "1656168733191ee736",
     "1656072120c2a859e2",
-    "165597692801ba214c"
+    "165597692801ba214c",
+    "1656169955c2ff3e28"
   ]
 }
