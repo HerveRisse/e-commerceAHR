@@ -69,6 +69,7 @@
         "16561947989e12d7b6-1": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Img.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -90,8 +91,8 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
+        "slide_height": "medium",
+        "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "show_text_below": true,
