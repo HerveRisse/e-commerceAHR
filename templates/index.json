@@ -484,6 +484,12 @@
       ],
       "settings": {
       }
+    },
+    "1656181226b22693fb": {
+      "type": "footer_title",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/graphic_elements_footer.png"
+      }
     }
   },
   "order": [
@@ -502,6 +508,7 @@
     "16561781077527f5b3",
     "image-with-text",
     "1656173919d5debc3f",
-    "165597692801ba214c"
+    "165597692801ba214c",
+    "1656181226b22693fb"
   ]
 }
