@@ -477,6 +477,13 @@
       ],
       "settings": {
       }
+    },
+    "16561781077527f5b3": {
+      "type": "sword-title",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Calque_1_70413f15-fa5f-4a12-8837-fb1fa03052a0.png",
+        "heading": "Qui-suis-je?"
+      }
     }
   },
   "order": [
@@ -494,6 +501,7 @@
     "1656072120c2a859e2",
     "image-with-text",
     "1656173919d5debc3f",
-    "165597692801ba214c"
+    "165597692801ba214c",
+    "16561781077527f5b3"
   ]
 }
