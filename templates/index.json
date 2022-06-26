@@ -255,6 +255,59 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "16562817235454646d": {
+      "type": "custom-slider",
+      "blocks": {
+        "1656281722744db06f-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Img.png",
+            "heading": "Exlibris",
+            "heading_size": "h1",
+            "subheading": "Offrez un Exlibris personnalisé à l’effigie de votre frère, soeur, ou même de leur personnage fantastique préféré, style médiéval !",
+            "button_label": "Offrir",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "1656281722744db06f-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1656281722744db06f-0",
+        "1656281722744db06f-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -271,6 +324,7 @@
     "1656173919d5debc3f",
     "165597692801ba214c",
     "1656181226b22693fb",
-    "1656279496de0ae77e"
+    "1656279496de0ae77e",
+    "16562817235454646d"
   ]
 }
