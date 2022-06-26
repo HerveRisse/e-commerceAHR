@@ -102,7 +102,7 @@
     "165627643219687c70": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.custom-slider_banner_image > img{\nbackground-image : url('https:\/\/cdn.shopify.com\/s\/files\/1\/0588\/0650\/1476\/files\/graphic_elements0_5d06e1c5-d202-4ec9-bcca-5d814ca0a67e.png?v=1656276310');\n}\n<\/style>",
+        "custom_liquid": "<style>\n.button[aria-disabled=true]{\nfont-size : 22px;\nfont-weight : 400;\nopacity : 1;\nletter-spacing: 4px;\n}\n<\/style>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
