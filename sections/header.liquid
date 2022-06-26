@@ -666,6 +666,19 @@
   }
 
   customElements.define('sticky-header', StickyHeader);
+        
+window.onscroll = function() {scrollFunction2()};
+
+function scrollFunction2() {
+	if ((document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) ) {
+        document.querySelector(".color-accent-1 ").style.backgroundColor = "rgba(27,27,27,1);
+		
+
+      } else {
+        document.querySelector(".color-accent-1 ").style.backgroundColor = "rgba(27,27,27,0);
+
+      }
+}
 {% endjavascript %}
 
 <script type="application/ld+json">
@@ -830,3 +843,6 @@
   ]
 }
 {% endschema %}
+
+
+
