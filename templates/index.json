@@ -495,7 +495,7 @@
     "1656279496de0ae77e": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.header__menu-item{\nfont-size: 18px;\nfont-weight:500;\n}\n\n.header--middle-left .header__inline-menu {margin-left:20vw\n}\n<\/style>",
+        "custom_liquid": "<style>\n.header__menu-item{\nfont-size: 18px;\nfont-weight:500;\n}\n\n.header--middle-left .header__inline-menu {margin-left:24vw\n}\n<\/style>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
