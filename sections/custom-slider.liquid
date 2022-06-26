@@ -12,9 +12,6 @@ background-color:black;
 .custom-slider-display {
 display:none
 }
-.custom-slider_banner_image {
-margin:50px
-}
 {%- endstyle -%}
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
@@ -145,7 +142,7 @@ margin:50px
             {%- endif -%}
             {%- if block.settings.button_label != blank -%}
               <div class="banner__buttons custom-banner_buttons">
-                <a{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
+                <a id = "offrirButton"{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
               </div>
             {%- endif -%}
           </div>
