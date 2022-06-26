@@ -1,5 +1,14 @@
 {
   "sections": {
+    "1656197377210b1fde": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class = \"video-presentation\">\n<div class = \"text-pres_container\">Math the printer<br><span>Gravures et linographies médiévales artisanales<\/span><\/div>\n<video id = \"video\" autoplay src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4531f1d99d50496eb19237ab7f864672.mp4\" muted>\n{% style %}\nvideo{\nwidth: 100vw;\nheight : auto;\n}\n.video-presentation{\nposition : relative\n}\n.text-pres_container{\nwidth : 100vw;\nheight : 100%;\nz-index : 20000;\nopacity : 0.6;\nbackground-color: rgb(27,27,27);\nposition : absolute;\ntop : 0px;\nleft : 0px;\ndisplay:flex;\njustify-content:center;\nalign-items:center;\ncolor:#fff;\n}\n{% endstyle %}",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -482,18 +491,10 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/graphic_elements_footer.png"
       }
-    },
-    "1656197377210b1fde": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class = \"video-presentation\">\n<div class = \"text-pres_container\">Math the printer<br><span>Gravures et linographies médiévales artisanales<\/span><\/div>\n<video id = \"video\" autoplay src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4531f1d99d50496eb19237ab7f864672.mp4\" muted>\n{% style %}\nvideo{\nwidth: 100vw;\nheight : auto;\n}\n.video-presentation{\nposition : relative\n}\n.text-pres_container{\nwidth : 100vw;\nheight : 100%;\nz-index : 20000;\nopacity : 0.6;\nbackground-color: rgb(27,27,27);\nposition : absolute;\ntop : 0px;\nleft : 0px;\ndisplay:flex;\njustify-content:center;\nalign-items:center;\ncolor:#fff;\n}\n{% endstyle %}",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
+    "1656197377210b1fde",
     "image_banner",
     "1655680859cb616207",
     "text-with-image",
@@ -510,7 +511,6 @@
     "image-with-text",
     "1656173919d5debc3f",
     "165597692801ba214c",
-    "1656181226b22693fb",
-    "1656197377210b1fde"
+    "1656181226b22693fb"
   ]
 }
