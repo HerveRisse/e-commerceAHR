@@ -1,11 +1,70 @@
+<div class="about-me-image_container" >
+  	<h2 class ="about-me-image_title" >{{section.settings.heading}}</h2>
+    <img class ="about-me-image" src="{{section.settings.image | img_url:'master'}}"/>
+</div>
+
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
-  }
+      "name": "image_container",
+      "settings": [
+                      {
+                      "type":"image_picker",
+                      "label":"your image",
+                      "id":"image"
+                      },
+ 					{
+                      "type":"text",
+                      "label":"headline",
+                      "id":"heading"
+                      }
+                     
+                ] ,
+
+        "presets" : [
+                    {
+                        "category":"image",
+                        "name": "image_container" 
+                    }
+                    ]
+
+    }
 {% endschema %}
 
 {% stylesheet %}
+
+.about-me-image_container{
+	width:100%;
+	height : auto;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	
+}
+.about-me-image_title{
+    font-size: 36px;
+    font-weight : 500;
+	
+}
+.about-me-image{
+	width: 100%;
+	height:auto;
+	
+}
+
+
+@media only screen and (max-width: 480px) {
+.about-me-image_title{
+	font-size: 24px;
+}
+.about-me-image{
+	width: 90%;
+	height:auto;
+	
+}
+
+}
 {% endstylesheet %}
 
 {% javascript %}
