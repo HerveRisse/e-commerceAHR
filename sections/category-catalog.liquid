@@ -168,7 +168,9 @@
 	
 function scrollFunction() {
 	if(screen.width >= 900){
-		
+		if((document.body.scrollTop > 1680 || document.documentElement.scrollTop > 1680) ){
+				console.log("ok3");
+		}
       if ((document.body.scrollTop > 1680 || document.documentElement.scrollTop > 1680) ) {
         document.querySelector(".catalog-category_container").style.opacity = "1";
 		console.log("ok1");
