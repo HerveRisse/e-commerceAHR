@@ -168,19 +168,29 @@
 	
 function scrollFunction() {
 	if(screen.width >= 900){
-      if ((document.body.scrollTop > 1280 || document.documentElement.scrollTop > 1280) ) {
+      if ((document.body.scrollTop > 1780 || document.documentElement.scrollTop > 1780) ) {
         document.querySelector(".catalog-category_container").style.opacity = "1";
-		console.log(screen.width);
+		
 
       } else {
         document.querySelector(".catalog-category_container").style.opacity = "0";
 
       }
+
+		if ((document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) ) {
+        document.querySelector(".color-accent-1").style.background-color = "rgba(27,27,27,1)";
+		
+
+      } else {
+        document.querySelector(".color-accent-1").style.background-color = "rgba(27,27,27,0)";
+
+      }
+		
 		}
 	else {
-		if ((document.body.scrollTop > 780 || document.documentElement.scrollTop > 780) ) {
+		if ((document.body.scrollTop > 980 || document.documentElement.scrollTop > 980) ) {
         document.querySelector(".catalog-category_container").style.opacity = "1";
-		console.log("eukay");
+		
 
       } else {
         document.querySelector(".catalog-category_container").style.opacity = "0";
@@ -189,3 +199,4 @@ function scrollFunction() {
 	}
 }
 {% endjavascript %}
+.color-accent-1
