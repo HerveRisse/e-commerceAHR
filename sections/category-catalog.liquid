@@ -171,6 +171,7 @@ function scrollFunction() {
 		
       if ((document.body.scrollTop > 1780 || document.documentElement.scrollTop > 1780) ) {
         document.querySelector(".catalog-category_container").style.opacity = "1";
+console.log("pc")
 		
 
       } else {
@@ -190,7 +191,7 @@ function scrollFunction() {
 	else if(screen.width >= 500){
 		if ((document.body.scrollTop > 1950 || document.documentElement.scrollTop > 1950) ) {
         document.querySelector(".catalog-category_container").style.opacity = "1";
-		
+		console.log("tab")
 
       } else {
         document.querySelector(".catalog-category_container").style.opacity = "0";
@@ -199,7 +200,7 @@ function scrollFunction() {
 	}else{
 		if ((document.body.scrollTop > 1450 || document.documentElement.scrollTop > 1450) ) {
         document.querySelector(".catalog-category_container").style.opacity = "1";
-		
+		console.log("phone")
 
       } else {
         document.querySelector(".catalog-category_container").style.opacity = "0";
