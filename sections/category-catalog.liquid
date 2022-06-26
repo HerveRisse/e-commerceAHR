@@ -178,9 +178,11 @@ function scrollFunction() {
 		
       }
 		if((document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) ){
-				document.querySelector(".catalog-category_container").style.backgroundColor = "rgba(27,27,27,1)";
+				document.querySelector(".color-accent-1").style.backgroundColor = "rgba(27,27,27,1)";
 		}
-
+		else{
+				document.querySelector(".color-accent-1").style.backgroundColor = "rgba(27,27,27,0)";
+		}
 		
 		}
 	else {
