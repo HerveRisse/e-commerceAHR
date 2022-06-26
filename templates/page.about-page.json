@@ -91,51 +91,6 @@
         "padding_bottom": 36
       }
     },
-    "16560795266bb55469": {
-      "type": "image-gallery",
-      "blocks": {
-        "d085627a-5231-4433-9a9f-d6277b067898": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_14.png"
-          }
-        },
-        "bb122f27-5373-4fa0-8bda-c880d4fff400": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Galerie_4.png"
-          }
-        },
-        "d08db8c8-2694-4b6d-8e21-d9426f95085c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/galerie_2.png"
-          }
-        },
-        "9c78381a-1af8-4749-9973-c036a5ca1176": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/galerie_3.png"
-          }
-        },
-        "67f39804-e136-40f4-955b-e7cff7fa675a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_20220620_122937_1.png"
-          }
-        }
-      },
-      "block_order": [
-        "d085627a-5231-4433-9a9f-d6277b067898",
-        "bb122f27-5373-4fa0-8bda-c880d4fff400",
-        "d08db8c8-2694-4b6d-8e21-d9426f95085c",
-        "9c78381a-1af8-4749-9973-c036a5ca1176",
-        "67f39804-e136-40f4-955b-e7cff7fa675a"
-      ],
-      "settings": {
-        "heading": ""
-      }
-    },
     "16560817055e95aaad": {
       "type": "text-with-icon-social",
       "blocks": {
@@ -203,6 +158,13 @@
       "settings": {
         "heading": ""
       }
+    },
+    "1656275772873961a0": {
+      "type": "image_container",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/galerie_photo.png",
+        "heading": "Je recherche votre perfection"
+      }
     }
   },
   "order": [
@@ -212,9 +174,9 @@
     "1656078925654ad795",
     "1655676862a9063e62",
     "1655676905055b42aa",
-    "16560795266bb55469",
     "16560817055e95aaad",
     "1656081764f1d30396",
-    "1656081921e44a0d51"
+    "1656081921e44a0d51",
+    "1656275772873961a0"
   ]
 }
