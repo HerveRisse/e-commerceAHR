@@ -44,7 +44,7 @@
 	align-item: center;
 	text-align : center;
 	
-	transition : 0.4s 0.4s  all;
+	transition : 0.4s 0.2s  all;
 }
 
 
@@ -187,7 +187,16 @@ function scrollFunction() {
 		}
 		
 		}
-	else {
+	else if(screen.width >= 500){
+		if ((document.body.scrollTop > 1650 || document.documentElement.scrollTop > 1650) ) {
+        document.querySelector(".catalog-category_container").style.opacity = "1";
+		
+
+      } else {
+        document.querySelector(".catalog-category_container").style.opacity = "0";
+
+      }
+	}else{
 		if ((document.body.scrollTop > 1450 || document.documentElement.scrollTop > 1450) ) {
         document.querySelector(".catalog-category_container").style.opacity = "1";
 		
