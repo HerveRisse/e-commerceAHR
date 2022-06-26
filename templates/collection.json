@@ -74,12 +74,22 @@
       ],
       "settings": {
       }
+    },
+    "165628075257f24ad3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.header__menu-item{\nfont-size: 18px;\nfont-weight:500;\n}\n\n.header--middle-left .header__inline-menu {margin-left:25vw\n}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "1656177047700b09a4",
     "banner",
     "product-grid",
-    "1656178350950e3e8a"
+    "1656178350950e3e8a",
+    "165628075257f24ad3"
   ]
 }
