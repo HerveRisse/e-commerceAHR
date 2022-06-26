@@ -6,6 +6,10 @@
 .custom-slider__text-wrapper {
 padding-right:0;
 }
+.custom-banner_buttons {
+background-color:black;
+
+}
 {%- endstyle -%}
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
@@ -135,7 +139,7 @@ padding-right:0;
             </div>
             {%- endif -%}
             {%- if block.settings.button_label != blank -%}
-              <div class="banner__buttons">
+              <div class="banner__buttons custom-banner_buttons">
                 <a{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
               </div>
             {%- endif -%}
