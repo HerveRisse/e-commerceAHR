@@ -81,7 +81,7 @@
         "custom_liquid": "<style>\n.header__menu-item{\nfont-size: 17px;\nfont-weight:500;\n}\n\n.header--middle-left .header__inline-menu {margin-left:25vw\n}",
         "color_scheme": "background-1",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 20
       }
     }
   },
