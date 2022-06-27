@@ -129,12 +129,19 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1656322396565a0a0b": {
+      "type": "footer_title",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/graphic_elements_footer.png"
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
     "16561786221006d334",
-    "165631978297ee1dd8"
+    "165631978297ee1dd8",
+    "1656322396565a0a0b"
   ]
 }
