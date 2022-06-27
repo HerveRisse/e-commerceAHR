@@ -182,12 +182,10 @@ console.log("pc")
 				document.querySelector(".color-accent-1").style.backgroundColor = "rgba(27,27,27,1)";
 				console.log("coco");
 		}
-		elseif((document.body.scrollTop < 10 || document.documentElement.scrollTop > 0) ){
-				document.querySelector(".color-accent-1").style.backgroundColor = "rgba(27,27,27,1)";
+		else{
+				document.querySelector(".color-accent-1").style.backgroundColor = "rgba(27,27,27,0.5)";
 				console.log("coci");
 		}
-		else{document.querySelector(".color-accent-1").style.backgroundColor = "rgba(27,27,27,0)";
-			}
 		
 		}
 	else if(screen.width >= 500){
