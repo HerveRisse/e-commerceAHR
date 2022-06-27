@@ -78,7 +78,7 @@
     "165628075257f24ad3": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.header__menu-item{\nfont-size: 17px;\nfont-weight:500;\n}\n\n.header--middle-left .header__inline-menu {margin-left:20vw\n}",
+        "custom_liquid": "<style>\n.header__menu-item{\nfont-size: 17px;\nfont-weight:500;\n}\n\n.header--middle-left .header__inline-menu {margin-left:20vw\n}\n<style>\n.header__menu-item{\nfont-size: 17px;\nfont-weight:500;\n}\n\n.header--middle-left .header__inline-menu {margin-left:20vw\n}\n.header--has-menu{\npadding-inline:0px;\n}\n<\/style>",
         "color_scheme": "background-1",
         "padding_top": 24,
         "padding_bottom": 0
