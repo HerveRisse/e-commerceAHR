@@ -3,9 +3,9 @@
 <h2 class ="text-icon-social_title" >{{section.settings.heading}}</h2>
   
 {%for block in section.blocks %}
-
+<a href="{{block.settings.link-1}}">
 <img class ="text-icon-social_img" src="{{block.settings.image-icon | img_url:'master'}}"/>
-
+</a>
 {%endfor%}
 
 </div>
@@ -44,7 +44,13 @@ justify-content:center;
                       "type":"image_picker",
                       "label":"your image",
                       "id":"image-icon"
-                  }
+                  },
+					{
+                      "type": "url",
+                      "id": "link-1",
+                      "label": "Link URL 1"
+
+					}
               ]
 } 
 ],
