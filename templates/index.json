@@ -316,21 +316,20 @@
         "37e091b8-67d3-4cba-8352-da56bf391cd0": {
           "type": "text",
           "settings": {
-            "image-catalog": "shopify:\/\/shop_images\/Vectorfb.png",
+            "image-social": "shopify:\/\/shop_images\/Vectorfb.png",
             "link-1": ""
           }
         },
         "8345e39a-51ab-44f2-842d-cb892c243bbc": {
           "type": "text",
           "settings": {
-            "image-catalog": "shopify:\/\/shop_images\/insta.png",
+            "image-social": "shopify:\/\/shop_images\/insta.png",
             "link-1": ""
           }
         },
         "d567468d-fbe7-41fe-998f-7da2b04e5276": {
           "type": "text",
           "settings": {
-            "image-catalog": "shopify:\/\/shop_images\/Vectortik.png",
             "link-1": ""
           }
         }
