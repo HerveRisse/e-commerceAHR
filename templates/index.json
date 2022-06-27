@@ -310,37 +310,38 @@
         "padding_bottom": 0
       }
     },
-    "165632639307f7ffe1": {
-      "type": "social_banner",
+    "16563292819a7b164e": {
+      "type": "text-with-icon-social",
       "blocks": {
-        "37e091b8-67d3-4cba-8352-da56bf391cd0": {
-          "type": "text",
+        "2ca3e0bc-d48d-4e7b-9f25-1c6ddedc272f": {
+          "type": "image",
           "settings": {
-            "image-social": "shopify:\/\/shop_images\/Vectorfb.png",
+            "image-icon": "shopify:\/\/shop_images\/Vectortik.png",
             "link-1": ""
           }
         },
-        "8345e39a-51ab-44f2-842d-cb892c243bbc": {
-          "type": "text",
+        "d0997552-42b4-4985-820b-46853a993671": {
+          "type": "image",
           "settings": {
-            "image-social": "shopify:\/\/shop_images\/insta.png",
+            "image-icon": "shopify:\/\/shop_images\/insta.png",
             "link-1": ""
           }
         },
-        "d567468d-fbe7-41fe-998f-7da2b04e5276": {
-          "type": "text",
+        "ece26383-770e-40ca-afec-3df2ab48468f": {
+          "type": "image",
           "settings": {
-            "image-social": "shopify:\/\/shop_images\/Vectortik.png",
+            "image-icon": "shopify:\/\/shop_images\/Vectorfb.png",
             "link-1": ""
           }
         }
       },
       "block_order": [
-        "37e091b8-67d3-4cba-8352-da56bf391cd0",
-        "8345e39a-51ab-44f2-842d-cb892c243bbc",
-        "d567468d-fbe7-41fe-998f-7da2b04e5276"
+        "2ca3e0bc-d48d-4e7b-9f25-1c6ddedc272f",
+        "d0997552-42b4-4985-820b-46853a993671",
+        "ece26383-770e-40ca-afec-3df2ab48468f"
       ],
       "settings": {
+        "heading": "Retrouvons-nous ici:"
       }
     }
   },
@@ -360,6 +361,6 @@
     "165597692801ba214c",
     "1656181226b22693fb",
     "1656279496de0ae77e",
-    "165632639307f7ffe1"
+    "16563292819a7b164e"
   ]
 }
