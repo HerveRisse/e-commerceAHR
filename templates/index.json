@@ -324,11 +324,19 @@
           "settings": {
             "image-icon": "shopify:\/\/shop_images\/insta.png"
           }
+        },
+        "adbd9db5-8d7f-4aed-bad6-9b273072ba7a": {
+          "type": "image",
+          "settings": {
+            "image-icon": "shopify:\/\/shop_images\/Vectortik.png",
+            "link-1": ""
+          }
         }
       },
       "block_order": [
         "f9bc281c-6026-47a8-8891-072f50f8ccaf",
-        "ae638f4d-e37f-4284-b782-6be8bcb8343e"
+        "ae638f4d-e37f-4284-b782-6be8bcb8343e",
+        "adbd9db5-8d7f-4aed-bad6-9b273072ba7a"
       ],
       "settings": {
         "heading": ""
