@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="{{ 'component-mega-menu.css' | asset_url }}" media="print" onload="this.media='all'">
   <noscript>{{ 'component-mega-menu.css' | asset_url | stylesheet_tag }}</noscript>
 {%- endif -%}
-
+<link href="https://fr.allfont.net/allfont.css?fonts=bodoni" rel="stylesheet" type="text/css" />
 <noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-search.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-menu-drawer.css' | asset_url | stylesheet_tag }}</noscript>
@@ -19,6 +19,11 @@
 <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
 
 <style>
+  
+  body{
+    font-family: 'Bodoni', arial;
+  }
+  
   header-drawer {
     justify-self: start;
     margin-left: -1.2rem;
