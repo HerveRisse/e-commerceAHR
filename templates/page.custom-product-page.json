@@ -68,6 +68,39 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/graphic_elements_footer.png"
       }
+    },
+    "1656334868ef827995": {
+      "type": "text-with-icon-social",
+      "blocks": {
+        "b847986d-1ca8-4d2f-950c-77d83d332b15": {
+          "type": "image",
+          "settings": {
+            "link-1": ""
+          }
+        },
+        "0067ffe9-dfde-4ee2-8a2d-0d1fe58764dc": {
+          "type": "image",
+          "settings": {
+            "image-icon": "shopify:\/\/shop_images\/insta.png",
+            "link-1": "https:\/\/instagram.com\/math_the_printer?igshid=YmMyMTA2M2Y="
+          }
+        },
+        "12bccc63-220e-4665-97ce-0971caf27ad7": {
+          "type": "image",
+          "settings": {
+            "image-icon": "shopify:\/\/shop_images\/Vectortik.png",
+            "link-1": "https:\/\/vm.tiktok.com\/ZMN6cQL1V\/"
+          }
+        }
+      },
+      "block_order": [
+        "b847986d-1ca8-4d2f-950c-77d83d332b15",
+        "0067ffe9-dfde-4ee2-8a2d-0d1fe58764dc",
+        "12bccc63-220e-4665-97ce-0971caf27ad7"
+      ],
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
@@ -77,6 +110,7 @@
     "165567615381eb65c4",
     "165627643219687c70",
     "165628078911d54219",
-    "16563223256da146ed"
+    "16563223256da146ed",
+    "1656334868ef827995"
   ]
 }

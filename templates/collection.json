@@ -89,6 +89,40 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/graphic_elements_footer.png"
       }
+    },
+    "1656334765f9626bf8": {
+      "type": "text-with-icon-social",
+      "blocks": {
+        "afc7db79-4034-44ff-b003-fb366932a032": {
+          "type": "image",
+          "settings": {
+            "image-icon": "shopify:\/\/shop_images\/Vectorfb.png",
+            "link-1": "https:\/\/www.facebook.com\/MathThePrinter"
+          }
+        },
+        "75d0ff17-6ef6-43b8-9885-e95f7a15f370": {
+          "type": "image",
+          "settings": {
+            "image-icon": "shopify:\/\/shop_images\/insta.png",
+            "link-1": "https:\/\/instagram.com\/math_the_printer?igshid=YmMyMTA2M2Y="
+          }
+        },
+        "0852159e-e7c6-4e62-bf92-801285a766c8": {
+          "type": "image",
+          "settings": {
+            "image-icon": "shopify:\/\/shop_images\/Vectortik.png",
+            "link-1": "https:\/\/vm.tiktok.com\/ZMN6cQL1V\/"
+          }
+        }
+      },
+      "block_order": [
+        "afc7db79-4034-44ff-b003-fb366932a032",
+        "75d0ff17-6ef6-43b8-9885-e95f7a15f370",
+        "0852159e-e7c6-4e62-bf92-801285a766c8"
+      ],
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
@@ -97,6 +131,7 @@
     "product-grid",
     "1656178350950e3e8a",
     "165628075257f24ad3",
-    "1656322286a56b124a"
+    "1656322286a56b124a",
+    "1656334765f9626bf8"
   ]
 }
