@@ -1,14 +1,11 @@
 html{
 	overflow-x:hidden;
 }
-@font-face {
-  font-family: "Fiolex_Mephisto_Dingbats";
-  src: url("/assets/Fiolex_Mephisto_Dingbats.woff");
-  src: url("/assets/Fiolex_Mephisto_Dingbats.ttf");
-}
 
-.homepage-review_stars-icon {
-  font-family: "Fiolex_Mephisto_Dingbats", serif;
+  @import url(https://fr.allfont.net/allfont.css?fonts=bodoni);
+
+body {
+  font-family: 'Bodoni', arial;
 }
 
 /* Color custom properties */
