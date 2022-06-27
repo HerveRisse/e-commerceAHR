@@ -85,23 +85,6 @@
         "heading": "Je recherche votre perfection"
       }
     },
-    "16560817055e95aaad": {
-      "type": "text-with-icon-social",
-      "blocks": {
-        "f70d46c4-a44d-442a-9aee-86836e86c2fd": {
-          "type": "image",
-          "settings": {
-            "image-icon": "shopify:\/\/shop_images\/graphic_elements.png"
-          }
-        }
-      },
-      "block_order": [
-        "f70d46c4-a44d-442a-9aee-86836e86c2fd"
-      ],
-      "settings": {
-        "heading": ""
-      }
-    },
     "1656081764f1d30396": {
       "type": "newsletter",
       "blocks": {
@@ -136,23 +119,6 @@
         "padding_bottom": 52
       }
     },
-    "1656081921e44a0d51": {
-      "type": "text-with-icon-social",
-      "blocks": {
-        "66bc2e09-ea99-413d-a28f-94b40d1fde40": {
-          "type": "image",
-          "settings": {
-            "image-icon": "shopify:\/\/shop_images\/graphic_elements.png"
-          }
-        }
-      },
-      "block_order": [
-        "66bc2e09-ea99-413d-a28f-94b40d1fde40"
-      ],
-      "settings": {
-        "heading": ""
-      }
-    },
     "165628083919b89ff8": {
       "type": "custom-liquid",
       "settings": {
@@ -176,9 +142,7 @@
     "1656078925654ad795",
     "1655676862a9063e62",
     "1656275772873961a0",
-    "16560817055e95aaad",
     "1656081764f1d30396",
-    "1656081921e44a0d51",
     "165628083919b89ff8",
     "16563223591b5aad78"
   ]
