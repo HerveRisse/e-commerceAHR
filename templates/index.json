@@ -316,20 +316,22 @@
         "f9bc281c-6026-47a8-8891-072f50f8ccaf": {
           "type": "image",
           "settings": {
-            "image-icon": "shopify:\/\/shop_images\/Vectorfb.png"
+            "image-icon": "shopify:\/\/shop_images\/Vectorfb.png",
+            "link-1": "https:\/\/www.facebook.com\/MathThePrinter"
           }
         },
         "ae638f4d-e37f-4284-b782-6be8bcb8343e": {
           "type": "image",
           "settings": {
-            "image-icon": "shopify:\/\/shop_images\/insta.png"
+            "image-icon": "shopify:\/\/shop_images\/insta.png",
+            "link-1": "https:\/\/instagram.com\/math_the_printer?igshid=YmMyMTA2M2Y="
           }
         },
         "adbd9db5-8d7f-4aed-bad6-9b273072ba7a": {
           "type": "image",
           "settings": {
             "image-icon": "shopify:\/\/shop_images\/Vectortik.png",
-            "link-1": ""
+            "link-1": "https:\/\/vm.tiktok.com\/ZMN6cQL1V\/"
           }
         }
       },
