@@ -8,10 +8,10 @@
         "padding_bottom": 28
       }
     },
-    "1656177812e36ee598": {
-      "type": "sword-title",
+    "1656427647df71d4a7": {
+      "type": "zigouigoui-title",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Calque_1_70413f15-fa5f-4a12-8837-fb1fa03052a0.png",
+        "image": "shopify:\/\/shop_images\/graphic_elements0_5d06e1c5-d202-4ec9-bcca-5d814ca0a67e.png",
         "heading": "A propos"
       }
     },
@@ -222,7 +222,7 @@
   },
   "order": [
     "main",
-    "1656177812e36ee598",
+    "1656427647df71d4a7",
     "16556766240a02baf4",
     "1656078925654ad795",
     "1655676862a9063e62",
