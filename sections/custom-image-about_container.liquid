@@ -99,12 +99,10 @@
 }
 {% endschema %}
 
-
-
-{% javascript %}
-window.onscroll = function() {scrollFunction()};
+<script>
+  window.onscroll = function() {scrollFunction3()};
 	
-function scrollFunction() {
+function scrollFunction3() {
 	if(screen.width >= 1900){
 		document.querySelector('.image-about_container').style.opacity = 1;
 		console.log("ok");
@@ -114,4 +112,7 @@ function scrollFunction() {
 		console.log("no");
 	}
 }
+</script>
+{% javascript %}
+
 {% endjavascript %}
