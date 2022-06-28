@@ -3,12 +3,6 @@ html{
 
 }
 
-  @import url(https://fr.allfont.net/allfont.css?fonts=bodoni);
-
-body {
-  font-family: 'Bodoni', arial;
-}
-
 /* Color custom properties */
 
 :root,
@@ -665,6 +659,7 @@ hr {
   text-decoration: none;
   color: currentColor;
   display: block;
+  font-size:2rem
 }
 
 .placeholder {
