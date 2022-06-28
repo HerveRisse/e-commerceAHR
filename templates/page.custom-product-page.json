@@ -102,6 +102,13 @@
       "settings": {
         "heading": ""
       }
+    },
+    "16564234576da040fb": {
+      "type": "zigouigoui-title",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/graphic_elements0_5d06e1c5-d202-4ec9-bcca-5d814ca0a67e.png",
+        "heading": "Demande personnalisée"
+      }
     }
   },
   "order": [
@@ -112,6 +119,7 @@
     "165627643219687c70",
     "165628078911d54219",
     "16563223256da146ed",
-    "1656334868ef827995"
+    "1656334868ef827995",
+    "16564234576da040fb"
   ]
 }
