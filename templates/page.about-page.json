@@ -8,13 +8,6 @@
         "padding_bottom": 28
       }
     },
-    "1656177812e36ee598": {
-      "type": "sword-title",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Calque_1_70413f15-fa5f-4a12-8837-fb1fa03052a0.png",
-        "heading": "A propos"
-      }
-    },
     "1656432568b8c6291e": {
       "type": "zigouigoui-title",
       "settings": {
@@ -237,7 +230,6 @@
   },
   "order": [
     "main",
-    "1656177812e36ee598",
     "1656432568b8c6291e",
     "16556766240a02baf4",
     "1656078925654ad795",
