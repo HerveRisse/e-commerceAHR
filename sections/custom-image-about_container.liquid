@@ -107,8 +107,10 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
 	if(screen.width >= 1900){
 		document.querySelector('.image-about_container').style.opacity = 1;
+		console.log("ok");
 	}
 	else{
 		document.querySelector('.image-about_container').style.opacity = 0;
+		console.log("no");
 	}
 {% endjavascript %}
