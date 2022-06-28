@@ -18,6 +18,13 @@
     "16556766240a02baf4": {
       "type": "image-with-text",
       "blocks": {
+        "11bddeaf-0089-4d48-969b-207b2158747c": {
+          "type": "heading",
+          "settings": {
+            "heading": "L'Artiste",
+            "heading_size": "h1"
+          }
+        },
         "1655676624186770a4-1": {
           "type": "text",
           "settings": {
@@ -27,6 +34,7 @@
         }
       },
       "block_order": [
+        "11bddeaf-0089-4d48-969b-207b2158747c",
         "1655676624186770a4-1"
       ],
       "settings": {
