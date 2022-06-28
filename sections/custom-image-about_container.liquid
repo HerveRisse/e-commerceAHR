@@ -2,7 +2,7 @@
   <div class="image-about_container">
   {%for block in section.blocks %}
 		<div class="image-about_item" >
-        	<h3 class ="titre-about_hover" style="font-size:20px;" >{{block.settings.heading}}</h3>
+        	<h3 class ="titre-about_hover"  >{{block.settings.heading}}</h3>
       		<img class ="image-about_hover" src="{{block.settings.image-icon-footer | img_url:'master'}}"/>
        </div>
   {%endfor%}
@@ -45,7 +45,7 @@
 	color:#fff;
 	margin:0;
 	opacity:0;
-	
+	font-size:20px;
 }
 .image-about_hover{
 	width : 100%;
