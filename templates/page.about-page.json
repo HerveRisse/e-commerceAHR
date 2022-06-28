@@ -15,6 +15,13 @@
         "heading": "A propos"
       }
     },
+    "1656432568b8c6291e": {
+      "type": "zigouigoui-title",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/graphic_elements0_5d06e1c5-d202-4ec9-bcca-5d814ca0a67e.png",
+        "heading": "A propos"
+      }
+    },
     "16556766240a02baf4": {
       "type": "image-with-text",
       "blocks": {
@@ -231,6 +238,7 @@
   "order": [
     "main",
     "1656177812e36ee598",
+    "1656432568b8c6291e",
     "16556766240a02baf4",
     "1656078925654ad795",
     "1655676862a9063e62",
