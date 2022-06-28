@@ -1,13 +1,23 @@
-<div class="container-delivery_intel">
-  <div class="container-delivery_intel_banner">
+
+  <div class="image-about_container">
   {%for block in section.blocks %}
-		<div class="title-with-image_container" >
+		<div class="image-about_item" >
         	<h3 class ="title-with-image_title" >{{block.settings.heading}}</h3>
       		<img class ="title-with-image_img" src="{{block.settings.image-icon-footer | img_url:'master'}}"/>
        </div>
   {%endfor%}
   </div>
 </div>
+
+
+
+
+{% stylesheet %}
+
+
+{% endstylesheet %}
+
+
 
 {% schema %}
 {
@@ -43,8 +53,6 @@
 {% endschema %}
 
 
-{% stylesheet %}
-{% endstylesheet %}
 
 {% javascript %}
 {% endjavascript %}
