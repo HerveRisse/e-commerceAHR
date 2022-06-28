@@ -15,13 +15,6 @@
         "heading": "Demande personnalisée"
       }
     },
-    "1656177148dd0a515a": {
-      "type": "sword-title",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Calque_1_70413f15-fa5f-4a12-8837-fb1fa03052a0.png",
-        "heading": "Demande personnalisée"
-      }
-    },
     "1655676147110deaa1": {
       "type": "rich-text",
       "blocks": {
@@ -114,7 +107,6 @@
   "order": [
     "main",
     "16564234576da040fb",
-    "1656177148dd0a515a",
     "1655676147110deaa1",
     "165567615381eb65c4",
     "165627643219687c70",

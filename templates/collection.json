@@ -123,6 +123,13 @@
       "settings": {
         "heading": ""
       }
+    },
+    "1656427500fcfc6417": {
+      "type": "zigouigoui-title",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/graphic_elements0_5d06e1c5-d202-4ec9-bcca-5d814ca0a67e.png",
+        "heading": "Mes créations"
+      }
     }
   },
   "order": [
@@ -132,6 +139,7 @@
     "1656178350950e3e8a",
     "165628075257f24ad3",
     "1656322286a56b124a",
-    "1656334765f9626bf8"
+    "1656334765f9626bf8",
+    "1656427500fcfc6417"
   ]
 }
