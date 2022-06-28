@@ -49,7 +49,7 @@
         "1656428319cf6a6afe-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "L’Art",
             "heading_size": "h1"
           }
         },
@@ -59,30 +59,22 @@
             "text": "<p>La  xylogravure  est une technique de gravure sur bois immémoriale.  Cette technique consiste à tailler une plaque de bois à certains endroits précis, afin de laisser apparaitre un dessin sur le support. La linogravure s’inspire de la xylogravure. Apparue au au début du XXème siècle, cette technique va rapidement devenir populaire, pour finalement remplacer la xylogravure. Elle s’inspire du même procédé, mais le linoneum (lino) remplace le bois comme support, le lino étant un matériau beaucoup plus tendre à graver, mais assez résistant pour supporter la presse.Que ce soit pour la xylogravure ou la linogravure, les étapes de création restent les mêmes :La gravure : après avoir dessiné un modèle sur le support, il faut creuser les parties blanches à l’aide d’une gouge (voir photo). Les parties non gravées (donc qui restent en relief) sont encrées et apparaitront ainsi en noir.L’encrage : à l’aide d’un rouleau, on encre la plaque avec une encre assez épaisse pour ne pas qu’elle coule dans les surfaces creuses. Le tirage : il ne suffit plus qu’à déposer une feuille sur la plaque et appliquer une pression afin de transférer l’illustration. Pour ce qui est de la linogravure, je m’occupe personnellement de chaque étape de création, de la gravure de la matrice d’impression (plaque sur laquelle on étale l’encre) à l’impression elle-même. <\/p>",
             "text_style": "body"
           }
-        },
-        "1656428319cf6a6afe-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "1656428319cf6a6afe-0",
-        "1656428319cf6a6afe-1",
-        "1656428319cf6a6afe-2"
+        "1656428319cf6a6afe-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-ono-kosuki-5973896_1.png",
-        "height": "adapt",
+        "height": "large",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
