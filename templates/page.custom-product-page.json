@@ -8,6 +8,13 @@
         "padding_bottom": 28
       }
     },
+    "16564234576da040fb": {
+      "type": "zigouigoui-title",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/graphic_elements0_5d06e1c5-d202-4ec9-bcca-5d814ca0a67e.png",
+        "heading": "Demande personnalisée"
+      }
+    },
     "1656177148dd0a515a": {
       "type": "sword-title",
       "settings": {
@@ -102,24 +109,17 @@
       "settings": {
         "heading": ""
       }
-    },
-    "16564234576da040fb": {
-      "type": "zigouigoui-title",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/graphic_elements0_5d06e1c5-d202-4ec9-bcca-5d814ca0a67e.png",
-        "heading": "Demande personnalisée"
-      }
     }
   },
   "order": [
     "main",
+    "16564234576da040fb",
     "1656177148dd0a515a",
     "1655676147110deaa1",
     "165567615381eb65c4",
     "165627643219687c70",
     "165628078911d54219",
     "16563223256da146ed",
-    "1656334868ef827995",
-    "16564234576da040fb"
+    "1656334868ef827995"
   ]
 }
