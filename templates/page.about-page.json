@@ -209,6 +209,15 @@
       "settings": {
         "heading": ""
       }
+    },
+    "1656425941d3f1194b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class = \"video-about\">\n<video id = \"video\" autoplay loop src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f5c0d49901714cff9ea5dec2298b5abd.mp4\" muted>\n<\/div>\n\n<style>\n.video-about{\nwidth : 100%;\nheight : auto;\ndisplay : flex;\njustify-content : center;\nalign-items : center;\n}\n#video{\nwidth : 60%;\nheight: auto;\n}\n<\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -221,6 +230,7 @@
     "1656081764f1d30396",
     "165628083919b89ff8",
     "16563223591b5aad78",
-    "1656334958053ef9b3"
+    "1656334958053ef9b3",
+    "1656425941d3f1194b"
   ]
 }
