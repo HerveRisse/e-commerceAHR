@@ -8,10 +8,10 @@
         "padding_bottom": 28
       }
     },
-    "1656427647df71d4a7": {
-      "type": "zigouigoui-title",
+    "1656177812e36ee598": {
+      "type": "sword-title",
       "settings": {
-        "image": "shopify:\/\/shop_images\/graphic_elements0_5d06e1c5-d202-4ec9-bcca-5d814ca0a67e.png",
+        "image": "shopify:\/\/shop_images\/Calque_1_70413f15-fa5f-4a12-8837-fb1fa03052a0.png",
         "heading": "A propos"
       }
     },
@@ -39,42 +39,6 @@
         "content_layout": "overlap",
         "color_scheme": "background-2",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1656428320dbe194b3": {
-      "type": "image-with-text",
-      "blocks": {
-        "1656428319cf6a6afe-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "L’Art",
-            "heading_size": "h1"
-          }
-        },
-        "1656428319cf6a6afe-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>La  <strong>xylogravure<\/strong>  est une technique de <strong>gravure sur bois<\/strong> immémoriale.  Cette technique consiste à <strong>tailler une plaque de bois<\/strong> à certains endroits précis, afin de laisser apparaitre un dessin sur le support. <\/p><p>La <strong>linogravure<\/strong> s’inspire de la xylogravure. Apparue au au début du XXème siècle, cette technique va rapidement devenir populaire, pour finalement remplacer la xylogravure. Elle s’inspire du même procédé, mais le <strong>linoneum<\/strong> (lino) remplace le bois comme support, le lino étant un matériau beaucoup plus tendre à graver, mais assez résistant pour supporter la presse.<\/p><p>Que ce soit pour la xylogravure ou la linogravure, les étapes de création restent les mêmes :<\/p><p>La <strong>gravure<\/strong> : après avoir dessiné un modèle sur le support, il faut creuser les parties blanches à l’aide d’une gouge (voir photo). Les parties non gravées (donc qui restent en relief) sont encrées et apparaitront ainsi en noir.<\/p><p><strong>L’encrage<\/strong> : à l’aide d’un rouleau, on encre la plaque avec une encre assez épaisse pour ne pas qu’elle coule dans les surfaces creuses. <\/p><p>Le <strong>tirage<\/strong> : il ne suffit plus qu’à déposer une feuille sur la plaque et appliquer une pression afin de transférer l’illustration. <\/p><p>Pour ce qui est de la linogravure, je m’occupe personnellement de chaque étape de création, de la gravure de la matrice d’impression (plaque sur laquelle on étale l’encre) à l’impression elle-même. <\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "1656428319cf6a6afe-0",
-        "1656428319cf6a6afe-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-ono-kosuki-5973896_1.png",
-        "height": "large",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -117,7 +81,7 @@
     "1656425941d3f1194b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class = \"video-about\">\n<video id = \"video\" autoplay loop src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/410a4ce35e0b49b79b78904332575fed.mp4\" muted>\n<\/div>\n\n<style>\n.video-about{\nwidth : 100%;\nheight : auto;\ndisplay : flex;\njustify-content : center;\nalign-items : center;\n}\n#video{\nwidth : 60%;\nheight: auto;\n}\n<\/style>",
+        "custom_liquid": "<div class=\"container_demo\">\n\n<h2 class = \"label_artisanal\">100% ARTISANAL<\/h2>\n<div class = \"video-about\">\n\n<video id = \"video\" autoplay loop src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0fe1a52aeae34e9ab1f0ae0a77c45a46.mp4\" muted>\n<\/div>\n<\/div>\n\n\n<style>\n.container_demo{\nwidth: 100%;\nheight : auto;\ndisplay:flex;\njustify-content: center;\n}\n.video-about{\nwidth : 40%;\nheight : auto;\ndisplay : flex;\njustify-content : center;\nalign-items : center;\norder:-10;\n}\n#video{\nwidth : 100%;\nheight: auto;\norder:-1;\n}\n.label_artisanal{\nfont-size:50px;\ntransform : rotate(60deg);\n}\n<\/style>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -258,9 +222,8 @@
   },
   "order": [
     "main",
-    "1656427647df71d4a7",
+    "1656177812e36ee598",
     "16556766240a02baf4",
-    "1656428320dbe194b3",
     "1656078925654ad795",
     "1655676862a9063e62",
     "1656425941d3f1194b",
