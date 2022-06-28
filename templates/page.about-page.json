@@ -78,13 +78,6 @@
         "padding_bottom": 52
       }
     },
-    "1656275772873961a0": {
-      "type": "image_container",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/galerie_photo.png",
-        "heading": "Je recherche votre perfection"
-      }
-    },
     "1656081764f1d30396": {
       "type": "newsletter",
       "blocks": {
@@ -220,7 +213,6 @@
     "16556766240a02baf4",
     "1656078925654ad795",
     "1655676862a9063e62",
-    "1656275772873961a0",
     "1656081764f1d30396",
     "165628083919b89ff8",
     "16563223591b5aad78",
