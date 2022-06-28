@@ -103,7 +103,7 @@
   window.onscroll = function() {scrollFunction3()};
 	
 function scrollFunction3() {
-	if(screen.width >= 900){
+	if ((document.body.scrollTop > 980 || document.documentElement.scrollTop > 980) ) {
 		document.querySelector('.image-about_container').style.opacity = 1;
 		console.log("ok");
 	}
