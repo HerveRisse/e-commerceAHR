@@ -13,7 +13,42 @@
 
 
 {% stylesheet %}
+.image-about_container{
+	width:100%;
+	height:100vh;
+	display:flex;
+	flex-direction: column;
+	align-items:start;
+	flex-shrink:1;
+	flex-wrap : wrap;
+}
 
+.image-about_item{
+	width:45%;
+	height:auto;
+	position: relative;
+
+}
+.titre-about_hover{
+	width : 100%;
+	height: 100%;
+	display: flex;
+	justify-content : center;
+	align-items: center;
+	background-color: rgba(27,27,27,0);
+	transition : 0.4s 0.2s all;
+	position: absolute;
+	top : 0px;
+	z-index : 1000;
+}
+.image-about_hover{
+	width : 100%;
+	height: 100%;
+	z-index: 500;
+}
+.titre-about_hover:hover{
+	background-color: rgba(27,27,27,0.6);
+}
 
 {% endstylesheet %}
 
