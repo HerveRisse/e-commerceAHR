@@ -23,6 +23,8 @@
 	justify-content:flex-start;
 	flex-wrap : wrap;
 	gap:20px;
+	opacity:0;
+	transition : 0.4s 0.2s all;
 }
 
 .image-about_item{
@@ -55,6 +57,11 @@
 .titre-about_hover:hover{
 	background-color: rgba(27,27,27,0.75);
 	opacity:1;
+}
+@media only screen and (max-width: 900px) {
+.image-about_container{
+	height:1700px;
+	
 }
 
 {% endstylesheet %}
@@ -95,4 +102,13 @@
 
 
 {% javascript %}
+window.onscroll = function() {scrollFunction()};
+	
+function scrollFunction() {
+	if(screen.width >= 1900){
+		document.querySelector('.image-about_container').style.opacity = 1;
+	}
+	else{
+		document.querySelector('.image-about_container').style.opacity = 0;
+	}
 {% endjavascript %}
