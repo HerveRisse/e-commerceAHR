@@ -1,12 +1,64 @@
+
+<div class="zigouigoui_container" >
+
+    <h2 class ="zigouigoui_title" >{{section.settings.heading}}</h2>
+
+    <img class ="zigouigoui_img" src="{{section.settings.image | img_url:'master'}}"/>
+	
+
+</div>
+
+{% style %}
+
+.sword-title_container {
+    text-align: center;
+    width: 100vw;
+    height :80px;
+    display:flex;
+    justify-content: center;
+	margin-top: 40px;
+	margin-bottom:30px;
+}
+.sword-title_img{
+    order : -1;
+}
+.sword-title_title{
+    order : 2;
+    font-size: 36px;
+    font-weight : 500;
+	padding-right:50px;
+}
+
+
+@media only screen and (max-width: 480px) {
+.sword-title_title{
+font-size: 24px;
+}
+}
+{% endstyle %}
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+    {
+      "name": "sword-title",
+      "settings": [
+                      {
+                      "type":"image_picker",
+                      "label":"your image",
+                      "id":"image"
+                      },
+                      {
+                      "type":"text",
+                      "label":"headline",
+                      "id":"heading"
+                      }
+                ]    ,
+
+        "presets" : [
+                    {
+                        "category":"image",
+                        "name": "sword title" 
+                    }
+                    ]
+
+    }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
