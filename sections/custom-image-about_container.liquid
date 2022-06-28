@@ -54,36 +54,30 @@
 
 
 {% schema %}
-{
-   "name":"custom-image-container",
-   "class":"section",
-   "settings":[
-      {
-         "type":"text",
-         "label":"custom-image-container",
-         "id":"heading"
-      }
-   ],
-   "blocks":[
-      {
-         "type":"text",
-         "name":"title catalog",
-         "settings":[
-            {
-               "type":"image_picker",
-               "label":"your image",
-               "id":"image-title"
-            }
-         ]
-      }
-   ],
-   "presets":[
-      {
-         "category":"image",
-         "name":"custom-image-container"
-      }
-   ]
-}
+
+     {
+      "name": "custom-iac",
+      "settings": [
+                      {
+                      "type":"image_picker",
+                      "label":"your image",
+                      "id":"image"
+                      },
+                      {
+                      "type":"text",
+                      "label":"headline",
+                      "id":"heading"
+                      }
+                ]    ,
+
+        "presets" : [
+                    {
+                        "category":"image",
+                        "name": "custom-iac" 
+                    }
+                    ]
+
+    }
 {% endschema %}
 
 
