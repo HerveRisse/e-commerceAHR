@@ -54,30 +54,34 @@
 
 
 {% schema %}
-
-     {
-      "name": "custom-iac",
-      "settings": [
-                      {
-                      "type":"image_picker",
-                      "label":"your image",
-                      "id":"image"
-                      },
-                      {
-                      "type":"text",
-                      "label":"headline",
-                      "id":"heading"
-                      }
-                ]    ,
-
-        "presets" : [
+{
+      "name": "custom-iac2",
+		"class" : "section",
+        "blocks":[
                     {
-                        "category":"image",
-                        "name": "custom-iac" 
+                        "type":"image",
+                        "name":"custom-footer",
+                        "settings":[
+                                    {
+                                     "type":"image_picker",
+                                     "label":"your image",
+                                     "id":"image-icon-footer"
+                                    },
+                                    {
+                                     "type":"text",
+                                     "label":"headline",
+                                     "id":"heading"
+                                    }
+                                    ]
                     }
-                    ]
-
-    }
+                    ],
+        "presets" : [
+                            {
+                                "category":"image",
+                                "name": "custom-iac2" 
+                            }
+                            ]
+}
 {% endschema %}
 
 
