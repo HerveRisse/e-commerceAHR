@@ -1,9 +1,47 @@
+<div class="container-delivery_intel">
+  <div class="container-delivery_intel_banner">
+  {%for block in section.blocks %}
+		<div class="title-with-image_container" >
+        	<h3 class ="title-with-image_title" >{{block.settings.heading}}</h3>
+      		<img class ="title-with-image_img" src="{{block.settings.image-icon-footer | img_url:'master'}}"/>
+       </div>
+  {%endfor%}
+  </div>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+   "name":"custom-image-container",
+   "class":"section",
+   "settings":[
+      {
+         "type":"text",
+         "label":"custom-image-container",
+         "id":"heading"
+      }
+   ],
+   "blocks":[
+      {
+         "type":"text",
+         "name":"title catalog",
+         "settings":[
+            {
+               "type":"image_picker",
+               "label":"your image",
+               "id":"image-title"
+            }
+         ]
+      }
+   ],
+   "presets":[
+      {
+         "category":"image",
+         "name":"custom-image-container"
+      }
+   ]
+}
 {% endschema %}
+
 
 {% stylesheet %}
 {% endstylesheet %}
