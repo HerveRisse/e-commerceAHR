@@ -3,7 +3,9 @@
   {%for block in section.blocks %}
 		<div class="title-with-image_container" >
         	<h2 class ="title-with-image_title" >{{block.settings.heading}}</h2>
+          	<div>
       		<img class ="title-with-image_img" src="{{block.settings.image-icon-footer | img_url:'master'}}"/>
+          </div>
        </div>
   {%endfor%}
   </div>
