@@ -8,24 +8,10 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
-          }
-        },
-        "fdb70e5e-aeca-471b-84be-ac76c4a2bea8": {
-          "type": "text",
-          "settings": {
-            "text": "Linocut Handprint on kozo - Warhammer Space Marine PortraitOeuvre inspirée par le jeu Warhammer Portrait d’un Space Marine portant une armure du XVIème siècleInspiré du style des bûcherons de la Renaissance italienne Dessiné main sur un block de linogravure, gravé à la main puis sculptée manuellement avant d’être pressé sur sur du papier de coton pur Format A4",
-            "text_style": "subtitle"
           }
         },
         "price": {
@@ -43,16 +29,20 @@
           "settings": {
             "show_dynamic_checkout": true
           }
+        },
+        "090278e2-a59d-4e13-b187-e8aa3fa61929": {
+          "type": "description",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "title",
-        "caption",
         "variant_picker",
-        "fdb70e5e-aeca-471b-84be-ac76c4a2bea8",
         "price",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "090278e2-a59d-4e13-b187-e8aa3fa61929"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -61,7 +51,7 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36,
+        "padding_top": 12,
         "padding_bottom": 12
       }
     },
