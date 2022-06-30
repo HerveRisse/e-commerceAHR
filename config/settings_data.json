@@ -99,6 +99,8 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/Vector_25_885119f3-4aca-4cf8-87ce-cc0ede96d640.png",
     "checkout_logo_size": "large",
     "checkout_body_background_color": "#fefefe",
+    "checkout_heading_font": "Roboto",
+    "checkout_body_font": "Roboto",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
