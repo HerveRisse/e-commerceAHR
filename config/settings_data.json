@@ -96,7 +96,8 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
-    "checkout_body_background_image": "shopify:\/\/shop_images\/Vector_25_885119f3-4aca-4cf8-87ce-cc0ede96d640.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Vector_25_885119f3-4aca-4cf8-87ce-cc0ede96d640.png",
+    "checkout_logo_size": "large",
     "checkout_body_background_color": "#fefefe",
     "sections": {
       "announcement-bar": {
