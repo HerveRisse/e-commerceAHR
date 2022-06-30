@@ -224,7 +224,7 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Discover",
+            "button_label": "Découvrir",
             "button_link": "shopify:\/\/pages\/about"
           }
         }
