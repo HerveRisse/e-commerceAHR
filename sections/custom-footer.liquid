@@ -1,10 +1,10 @@
 <div class="container-delivery_intel">
   <div class="container-delivery_intel_banner">
   {%for block in section.blocks %}
-		<div class="title-with-image_container" >
-        	<h2 class ="title-with-image_title" >{{block.settings.heading}}</h2>
+		<h2 class ="title-with-image_title" >{{block.settings.heading}}</h2>
+    	<div class="title-with-image_container" >
       		<img class ="title-with-image_img" src="{{block.settings.image-icon-footer | img_url:'master'}}"/>
-       </div>
+    	</div>
   {%endfor%}
   </div>
 </div>
