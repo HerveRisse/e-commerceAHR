@@ -3,6 +3,9 @@ html{
 
 }
 
+.product__title h1 {
+  text-align:left;
+}
 /* Color custom properties */
 
 :root,
